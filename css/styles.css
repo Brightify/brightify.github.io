@@ -1,7 +1,10 @@
-h1 {
+h1, h2 {
     font-family: "Open Sans";
     font-weight: 300;
     font-size: 40px;
+}
+
+h1 {
     text-align: center;
     color: #575757;
 }
@@ -11,9 +14,29 @@ h1 span {
     font-style: italic;
 }
 
+h2 {
+    color: #393939;
+}
+
+a {
+    font-family: "Lato";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px; 
+    text-decoration: none;
+}
+
+.text {
+    font-family: "Lato";
+    font-size: 20px;
+    line-height: normal;
+}
+
 .center {
     max-width: 1000px;
+    height: 100%;
     margin: 0px auto;
+    position: relative;
 }
 
 #header {
@@ -22,6 +45,7 @@ h1 span {
     text-align: center;
     height: 750px;
     width: 100%;
+    z-index: 0;
     background: #ffffff;
     background: -moz-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f8f8f8));
@@ -33,4 +57,69 @@ h1 span {
 #header img {
     margin-top: 225px;
     margin-bottom: 80px;
+}
+
+#content {
+    position: absolute;
+    width: 100%;
+    top: 750px;
+    z-index: 1;
+}
+
+#whatWeDo {
+    height: 925px;
+    background-color: #ffffff;
+    background-image: url("../img/what_we_do.png");
+    background-position-x: center;
+    background-position-y: -215px;
+    background-repeat: no-repeat;
+}
+
+#whatWeDo #language {
+    position: absolute;
+    top: 25px;
+    margin-left: 887px;
+    width: 90px;
+    height: 35px;
+    background-color: rgba(128, 151, 185, 191);
+    border-radius: 35px;
+}
+
+#whatWeDo #language div {
+    margin-left: 14px;
+    height: 100%;
+}
+
+#whatWeDo #language a {
+    float: left;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    line-height: 35px;
+}
+
+.current {
+    font-weight: bold !important;
+}
+
+#whatWeDo h2 {
+    padding-top: 125px;
+    padding-left: 12px;
+}
+
+#whatWeDo .text {
+    color: #504d4d;
+    margin-top: 22px;
+    max-width: 460px;
+    padding-left: 12px;
+}
+
+#whatWeDo a {
+    margin-top: 22px;
+    display: block;
+    color: #3aa8d2;
+    padding-left: 12px;
 }
