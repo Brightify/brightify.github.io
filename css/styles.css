@@ -18,18 +18,24 @@ h2 {
     color: #393939;
 }
 
+h2 span {
+    font-weight: bold;
+}
+
 a {
     font-family: "Lato";
     font-weight: bold;
     font-style: italic;
     font-size: 20px; 
     text-decoration: none;
+    display: block;
 }
 
 .text {
     font-family: "Lato";
     font-size: 20px;
     line-height: normal;
+    display: block;
 }
 
 .center {
@@ -67,7 +73,7 @@ a {
 }
 
 #whatWeDo {
-    height: 925px;
+    min-height: 925px;
     background-color: #ffffff;
     background-image: url("../img/what_we_do.png");
     background-position-x: center;
@@ -119,7 +125,33 @@ a {
 
 #whatWeDo a {
     margin-top: 22px;
-    display: block;
     color: #3aa8d2;
     padding-left: 12px;
+}
+
+#whyAndHow {
+    background-color: #d62942;
+    min-height: 815px;
+}
+
+#whyAndHow .center {
+    min-height: 815px;
+    background-image: url("../img/heart.png");
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+#whyAndHow h2, #whyAndHow .text, #whyAndHow a {
+    color: #ffffff;
+    padding-left: 650px;
+}
+
+#whyAndHow h2 {
+    padding-top: 130px;
+    padding-bottom: 40px;
+}
+
+#whyAndHow a {
+    padding-top: 20px;
+    padding-bottom: 125px;
 }
