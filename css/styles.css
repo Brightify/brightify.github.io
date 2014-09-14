@@ -2,6 +2,7 @@ h1, h2 {
     font-family: "Open Sans";
     font-weight: 300;
     font-size: 40px;
+    line-height: normal;
 }
 
 h1 {
@@ -112,13 +113,13 @@ a {
 }
 
 #whatWeDo h2 {
-    padding-top: 125px;
+    padding-top: 115px;
     padding-left: 12px;
 }
 
 #whatWeDo .text {
     color: #504d4d;
-    margin-top: 22px;
+    margin-top: 12px;
     max-width: 460px;
     padding-left: 12px;
 }
@@ -147,11 +148,46 @@ a {
 }
 
 #whyAndHow h2 {
-    padding-top: 130px;
-    padding-bottom: 40px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    font-size: 42px;
 }
 
 #whyAndHow a {
     padding-top: 20px;
     padding-bottom: 125px;
+}
+
+#youCanHaveItToo {
+    background-color: #3fafc7;
+    min-height: 840px;
+}
+
+#youCanHaveItToo .center {
+    min-height: 840px;
+    background-image: url("../img/devices.png");
+    background-position-x: 490px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+#youCanHaveItToo h2, #youCanHaveItToo .text, #youCanHaveItToo a {
+    color: #ffffff;
+    padding-left: 24px;
+    width: 350px;
+    text-align: right;
+}
+
+#youCanHaveItToo h2 {
+    padding-top: 220px;
+    font-size: 42px;
+}
+
+#youCanHaveItToo .text {
+    padding-top: 50px;
+}
+
+#youCanHaveItToo a {
+    padding-top: 20px;
+    padding-bottom: 220px;
 }
