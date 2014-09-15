@@ -1,7 +1,7 @@
 h1, h2 {
     font-family: "Open Sans";
     font-weight: 300;
-    font-size: 40px;
+    font-size: 42px;
     line-height: normal;
 }
 
@@ -29,14 +29,13 @@ a {
     font-style: italic;
     font-size: 20px; 
     text-decoration: none;
-    display: block;
+    display: inline-block;
 }
 
 .text {
     font-family: "Lato";
     font-size: 20px;
     line-height: normal;
-    display: block;
 }
 
 .center {
@@ -74,6 +73,7 @@ a {
 }
 
 #whatWeDo {
+    position: relative;
     min-height: 925px;
     background-color: #ffffff;
     background-image: url("../img/what_we_do.png");
@@ -84,6 +84,7 @@ a {
 
 #whatWeDo #language {
     position: absolute;
+    z-index: 100;
     top: 25px;
     margin-left: 887px;
     width: 90px;
@@ -93,7 +94,7 @@ a {
 }
 
 #whatWeDo #language div {
-    margin-left: 14px;
+    margin-left: 5px;
     height: 100%;
 }
 
@@ -103,8 +104,7 @@ a {
     font-weight: normal;
     color: #ffffff;
     margin-top: 0px;
-    padding-left: 0px;
-    padding-right: 10px;
+    margin-left: 10px;
     line-height: 35px;
 }
 
@@ -125,12 +125,12 @@ a {
 }
 
 #whatWeDo a {
-    margin-top: 22px;
+    margin-top: 10px;
     color: #3aa8d2;
-    padding-left: 12px;
 }
 
 #whyAndHow {
+    position: relative;
     background-color: #d62942;
     min-height: 815px;
 }
@@ -142,7 +142,7 @@ a {
     background-repeat: no-repeat;
 }
 
-#whyAndHow h2, #whyAndHow .text, #whyAndHow a {
+#whyAndHow h2, #whyAndHow .text {
     color: #ffffff;
     padding-left: 650px;
 }
@@ -150,15 +150,16 @@ a {
 #whyAndHow h2 {
     padding-top: 120px;
     padding-bottom: 30px;
-    font-size: 42px;
 }
 
 #whyAndHow a {
-    padding-top: 20px;
-    padding-bottom: 125px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 125px;
 }
 
 #youCanHaveItToo {
+    position: relative;
     background-color: #3fafc7;
     min-height: 840px;
 }
@@ -173,21 +174,77 @@ a {
 
 #youCanHaveItToo h2, #youCanHaveItToo .text, #youCanHaveItToo a {
     color: #ffffff;
-    padding-left: 24px;
-    width: 350px;
     text-align: right;
 }
 
 #youCanHaveItToo h2 {
     padding-top: 220px;
-    font-size: 42px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    width: 350px;
 }
 
 #youCanHaveItToo .text {
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-left: 24px;
+    width: 350px;
 }
 
 #youCanHaveItToo a {
-    padding-top: 20px;
-    padding-bottom: 220px;
+    margin-bottom: 220px;
+}
+
+#getInTouch {
+    position: relative;
+    background-color: #ffffff;
+    min-height: 750px;
+    text-align: center;
+}
+
+#getInTouch .center {
+    min-height: 750px;
+}
+
+#getInTouch h2 {
+    color: #626262;
+    padding-top: 115px;
+    padding-bottom: 10px;
+}
+
+#getInTouch .text {
+    margin: 0px auto;
+    color: #626262;
+    padding-top: 15px;
+    width: 480px;
+}
+
+#getInTouch .text span {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Lato";
+    font-size: 30px;
+    line-height: normal;
+    color: #000000;
+}
+
+#getInTouch .contacts {
+    width: auto;
+    margin-bottom: 75px;
+}
+
+#getInTouch .socials {
+    width: auto;
+    margin-bottom: 65px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#getInTouch .socials a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#getInTouch a {
+    color: #3aa8d2;
+    margin-bottom: 70px;
 }
