@@ -1,3 +1,8 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
 h1, h2 {
     font-family: "Open Sans";
     font-weight: 300;
@@ -77,8 +82,7 @@ a {
     min-height: 925px;
     background-color: #ffffff;
     background-image: url("../img/what_we_do.png");
-    background-position-x: center;
-    background-position-y: -215px;
+    background-position: center -215px;
     background-repeat: no-repeat;
 }
 
@@ -138,13 +142,14 @@ a {
 #whyAndHow .center {
     min-height: 815px;
     background-image: url("../img/heart.png");
-    background-position-y: center;
+    background-position: 0px center;
     background-repeat: no-repeat;
 }
 
 #whyAndHow h2, #whyAndHow .text {
     color: #ffffff;
     padding-left: 650px;
+    max-width: 350px;
 }
 
 #whyAndHow h2 {
@@ -167,8 +172,7 @@ a {
 #youCanHaveItToo .center {
     min-height: 840px;
     background-image: url("../img/devices.png");
-    background-position-x: 490px;
-    background-position-y: center;
+    background-position: 490px center;
     background-repeat: no-repeat;
 }
 
