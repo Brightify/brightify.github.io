@@ -3,7 +3,7 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: "Open Sans";
     font-weight: 300;
     font-size: 42px;
@@ -28,6 +28,11 @@ h2 span {
     font-weight: bold;
 }
 
+h3 {
+    font-size: 30px;
+    color: #393939;
+}
+
 a {
     font-family: "Lato";
     font-weight: bold;
@@ -35,6 +40,7 @@ a {
     font-size: 20px; 
     text-decoration: none;
     display: inline-block;
+    color: #3aa8d2;
 }
 
 p {
@@ -160,7 +166,6 @@ p {
 
 #whatWeDo a {
     margin-top: 10px;
-    color: #3aa8d2;
 }
 
 #whyAndHow {
@@ -191,6 +196,59 @@ p {
     color: #ffffff;
     margin-top: 20px;
     margin-bottom: 125px;
+}
+
+#whatWeDid {
+    position: relative;
+    background-color: #ffffff;
+    height: 920px;
+}
+
+#whatWeDid h2, #whatWeDid p {
+    padding-left: 10px;
+    max-width: 550px;
+}
+
+#whatWeDid h2 {
+    padding-top: 70px;
+    padding-bottom: 13px;
+    color: #393939;
+}
+
+#whatWeDid p {
+    padding-top: 3px;
+    padding-bottom: 15px;
+    color: #504d4d;
+}
+
+#whatWeDid .card {
+    position: absolute;
+    visibility: hidden;
+    background-color: rgba(232, 238, 247, 0.84);
+    width: 235px;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+#whatWeDid .card img {
+    display: block;
+    visibility: visible;
+    opacity: 0.3;
+    margin : 35px auto 0 auto;
+    width: 144px;
+    height: 144px;
+}
+
+#whatWeDid .card p {
+    font-size: 18px;
+}
+
+#whatWeDid a {
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 #youCanHaveItToo {
@@ -279,7 +337,6 @@ p {
 }
 
 #getInTouch a {
-    color: #3aa8d2;
     margin-bottom: 70px;
 }
 
