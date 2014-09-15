@@ -248,3 +248,46 @@ a {
     color: #3aa8d2;
     margin-bottom: 70px;
 }
+
+#joinOurTeam {
+    position: relative;
+    background-color: #69c44a;
+    min-height: 330px;
+}
+
+#joinOurTeam .center {
+    min-height: 190px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#joinOurTeam #slashes {
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 254px;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+#joinOurTeam #job {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#joinOurTeam h2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #ffffff;
+}
+
+#joinOurTeam .text {
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+#joinOurTeam a {
+    color: #fff600;
+}
