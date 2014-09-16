@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    cardIndex = $("#whatWeDid .card img").size();
+    currentCardIcon = null;
     setRandomCard();
     interval = setInterval(function() {
         setRandomCard();
@@ -12,16 +12,23 @@ $(document).ready(function() {
 });
 
 function setCard(cardIcon) {
-    $("#whatWeDid .card").css("visibility", "hidden");
+    fadeDuration = 500;
+    if (cardIcon === currentCardIcon) {
+        return;
+    }
+    if (currentCardIcon !== null) {
+        $(currentCardIcon).fadeTo(fadeDuration, 0.3);
+        $(currentCardIcon).parent().find(".cardInfo").fadeTo(fadeDuration / 0.7, 0);
+    }
+    currentCardIcon = cardIcon;
+    $(currentCardIcon).fadeTo(fadeDuration, 1);
+    $(currentCardIcon).parent().find(".cardInfo").fadeTo(fadeDuration / 0.7, 1);
     $("#whatWeDid .card").css("z-index", "1");
-    $("#whatWeDid .card img").css("opacity", "0.3");
-    $(cardIcon).parent().css("visibility", "visible");
     $(cardIcon).parent().css("z-index", "2");
-    $(cardIcon).css("opacity", "1");
 }
 
 function setRandomCard() {
-    cardIndex = getRandomIndex($("#whatWeDid .card img").size(), cardIndex);
+    cardIndex = getRandomIndex($("#whatWeDid .card img").size(), $.inArray(currentCardIcon, $(".card img")));
     setCard($("#whatWeDid .card img")[cardIndex]);
 }
 
