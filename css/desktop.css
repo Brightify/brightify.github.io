@@ -124,6 +124,7 @@ img {
     min-height: 925px;
     background-color: #ffffff;
     background-image: url("../img/what_we_do.png");
+    background-size: 1741px 1465px;
     background-position: center -215px;
     background-repeat: no-repeat;
 }
@@ -183,6 +184,7 @@ img {
 #whyAndHow .center {
     min-height: 815px;
     background-image: url("../img/heart.png");
+    background-size: 507px 455px;
     background-position: 0px center;
     background-repeat: no-repeat;
 }
@@ -271,6 +273,7 @@ img {
 #youCanHaveItToo .center {
     min-height: 840px;
     background-image: url("../img/devices.png");
+    background-size: 495px 359px;
     background-position: 490px center;
     background-repeat: no-repeat;
 }
@@ -349,6 +352,24 @@ img {
 
 #getInTouch a {
     margin-bottom: 70px;
+}
+
+#getInTouch #facebook, #getInTouch #gplus {
+    width: 107px;
+    height: 107px;
+    background-size: 107px 107px;
+}
+
+#getInTouch #facebook:hover, #getInTouch #gplus:hover {
+    opacity: 0.9;
+}
+
+#getInTouch #facebook {
+    background-image: url("../img/facebook.png");
+}
+
+#getInTouch #gplus {
+    background-image: url("../img/gplus.png");
 }
 
 #joinOurTeam {
