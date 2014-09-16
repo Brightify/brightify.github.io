@@ -251,6 +251,7 @@ img {
     opacity: 0.3;
     width: 144px;
     height: 144px;
+    z-index: 2;
 }
 
 #whatWeDid .cardInfo p {

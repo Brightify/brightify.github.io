@@ -17,14 +17,18 @@ function setCard(cardIcon) {
         return;
     }
     if (currentCardIcon !== null) {
+        $(currentCardIcon).parent().css("z-index", "3");
         $(currentCardIcon).fadeTo(fadeDuration, 0.3);
-        $(currentCardIcon).parent().find(".cardInfo").fadeTo(fadeDuration / 0.7, 0);
+        $(currentCardIcon).parent().find(".cardInfo").fadeTo(fadeDuration / 0.7, 0, function() {
+            $(this).parent().css("z-index", "1");
+        });
     }
     currentCardIcon = cardIcon;
+    $(currentCardIcon).parent().css("z-index", "4");
     $(currentCardIcon).fadeTo(fadeDuration, 1);
     $(currentCardIcon).parent().find(".cardInfo").fadeTo(fadeDuration / 0.7, 1);
-    $("#whatWeDid .card").css("z-index", "1");
-    $(cardIcon).parent().css("z-index", "2");
+
+
 }
 
 function setRandomCard() {
