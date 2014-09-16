@@ -49,6 +49,12 @@ p {
     line-height: normal;
 }
 
+img {
+    user-drag: none; 
+    -moz-user-select: none; 
+    -webkit-user-drag: none;
+}
+
 .center {
     max-width: 1000px;
     height: 100%;
