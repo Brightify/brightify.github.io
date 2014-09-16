@@ -12,7 +12,7 @@ $(document).ready(function() {
 });
 
 function setCard(cardIcon) {
-    fadeDuration = 500;
+    fadeDuration = 250;
     if (cardIcon === currentCardIcon) {
         return;
     }
