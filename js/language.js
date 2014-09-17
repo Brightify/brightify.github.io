@@ -1,7 +1,12 @@
-$(window).scroll(function () {
-    if ($("#content").offset().top - $(document).scrollTop() < 0) {
-        $("#language").css("position", "fixed");
-    } else {
-        $("#language").css("position", "absolute");
-    }
+$(document).ready(function() {
+    setLanguagePosition();
 });
+
+$(window).resize(function () {
+    setLanguagePosition();
+});
+
+function setLanguagePosition() {
+    right = ($(window).width() - $("#whatWeDo .center").width()) / 2 + 15;
+    $("#language").css("right", right);
+}

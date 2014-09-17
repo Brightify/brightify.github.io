@@ -41,6 +41,35 @@ a {
     text-decoration: none;
     display: inline-block;
     color: #3aa8d2;
+    position: relative;
+}
+
+.highlight {
+    padding-bottom: 8px;
+}
+
+.highlight:hover::after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+.highlight::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.1);
+    content: "";
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    transform: translateY(10px);
 }
 
 p {
@@ -62,6 +91,32 @@ img {
     position: relative;
 }
 
+#language {
+    position: fixed;
+    z-index: 100;
+    top: 25px;
+    width: 90px;
+    height: 35px;
+    background-color: #8097b9;
+    border-radius: 35px;
+    opacity: 0.75;
+}
+
+#language div {
+    margin-left: 5px;
+    height: 100%;
+}
+
+#language a {
+    float: left;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 10px;
+    line-height: 35px;
+}
+
 #header {
     position: fixed;
     display: table;
@@ -81,6 +136,7 @@ img {
     height: auto;
     display: table-cell;
     vertical-align: middle;
+    table-layout: fixed;
 }
 
 #header img {
@@ -127,32 +183,6 @@ img {
     background-size: 1741px 1465px;
     background-position: center -215px;
     background-repeat: no-repeat;
-}
-
-#whatWeDo #language {
-    position: absolute;
-    z-index: 100;
-    top: 25px;
-    margin-left: 887px;
-    width: 90px;
-    height: 35px;
-    background-color: #8097b9;
-    border-radius: 35px;
-}
-
-#whatWeDo #language div {
-    margin-left: 5px;
-    height: 100%;
-}
-
-#whatWeDo #language a {
-    float: left;
-    font-style: normal;
-    font-weight: normal;
-    color: #ffffff;
-    margin-top: 0px;
-    margin-left: 10px;
-    line-height: 35px;
 }
 
 .current {
@@ -246,6 +276,7 @@ img {
 }
 
 #whatWeDid .card img {
+    cursor: pointer; 
     position: absolute;
     top: 35px;
     left: 45.5px;
@@ -254,6 +285,10 @@ img {
     width: 144px;
     height: 144px;
     z-index: 2;
+}
+
+#whatWeDid .card img:hover {
+    opacity: 0.4;
 }
 
 #whatWeDid .cardInfo p {

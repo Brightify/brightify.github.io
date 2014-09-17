@@ -18,7 +18,9 @@ function setCard(cardIcon) {
     }
     if (currentCardIcon !== null) {
         $(currentCardIcon).parent().css("z-index", "3");
-        $(currentCardIcon).fadeTo(fadeDuration, 0.3);
+        $(currentCardIcon).fadeTo(fadeDuration, 0.3, function() {
+            $(this).css("opacity", "");
+        });
         $(currentCardIcon).parent().find(".cardInfo").fadeTo(fadeDuration / 0.7, 0, function() {
             $(this).parent().css("z-index", "1");
         });
