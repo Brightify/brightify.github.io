@@ -91,32 +91,6 @@ img {
     position: relative;
 }
 
-#language {
-    position: fixed;
-    z-index: 100;
-    top: 25px;
-    width: 90px;
-    height: 35px;
-    background-color: #8097b9;
-    border-radius: 35px;
-    opacity: 0.75;
-}
-
-#language div {
-    margin-left: 5px;
-    height: 100%;
-}
-
-#language a {
-    float: left;
-    font-style: normal;
-    font-weight: normal;
-    color: #ffffff;
-    margin-top: 0px;
-    margin-left: 10px;
-    line-height: 35px;
-}
-
 #header {
     position: fixed;
     display: table;
@@ -136,7 +110,6 @@ img {
     height: auto;
     display: table-cell;
     vertical-align: middle;
-    table-layout: fixed;
 }
 
 #header img {
@@ -183,6 +156,32 @@ img {
     background-size: 1741px 1465px;
     background-position: center -215px;
     background-repeat: no-repeat;
+}
+
+#whatWeDo #language {
+    position: absolute;
+    z-index: 100;
+    top: 25px;
+    right: 15px;
+    width: 90px;
+    height: 35px;
+    background-color: #8097b9;
+    border-radius: 35px;
+}
+
+#whatWeDo #language div {
+    margin-left: 5px;
+    height: 100%;
+}
+
+#whatWeDo #language a {
+    float: left;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 10px;
+    line-height: 35px;
 }
 
 .current {
