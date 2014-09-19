@@ -29,8 +29,6 @@ function setCard(cardIcon) {
     $(currentCardIcon).parent().css("z-index", "4");
     $(currentCardIcon).fadeTo(fadeDuration, 1);
     $(currentCardIcon).parent().find(".cardInfo").fadeTo(fadeDuration / 0.7, 1);
-
-
 }
 
 function setRandomCard() {

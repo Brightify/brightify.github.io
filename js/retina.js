@@ -1,4 +1,13 @@
 $(document).ready(function() {
+    retina = replaceImgUrl();
+    $(window).resize(function() {
+        if (!retina) {
+            retina = replaceImgUrl();
+        }
+    });
+});
+
+function replaceImgUrl() {
     if (window.devicePixelRatio > 1) {
         $("img").each(function() {
             path = $(this).attr("src").replace("img", "img2x");
@@ -11,5 +20,7 @@ $(document).ready(function() {
                 $(this).css("background-image", image);
             }
         });
+        return true;
     }
-});
+    return false;
+}
