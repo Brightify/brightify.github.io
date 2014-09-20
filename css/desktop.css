@@ -156,10 +156,38 @@ img {
     position: relative;
     min-height: 925px;
     background-color: #ffffff;
+    overflow: hidden;
+}
+
+#whatWeDo #background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    max-width: 1900px;
+    left: 50%;
+}
+
+#whatWeDo #background #centeredDiv {
+    position: relative;
+    left: -50%;
+    height: 100%;
+    background-color: transparent;
+}
+
+#whatWeDo #background #centeredDiv div {
+    position: absolute;
+    height: 1465px;
+    max-width: 1700px;
+    width: 100%;
+    right: 0px;
     background-image: url("../img/what_we_do.png");
     background-size: 1741px 1465px;
     background-position: center -215px;
     background-repeat: no-repeat;
+}
+
+#whatWeDo .center {
+    min-height: 925px;
 }
 
 #whatWeDo #language {
