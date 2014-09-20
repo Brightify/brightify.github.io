@@ -17,18 +17,22 @@ function setCard(cardIcon) {
         $(currentCardIcon).fadeTo(fadeDuration, 0.3, function() {
             $(this).css("opacity", "");
         });
-        $(currentCardIcon).parentsUntil("#cards", ".card").find(".cardInfo").fadeTo(fadeDuration / 0.7, 0, function() {
-            $(this).parentsUntil("#cards", ".card").css("z-index", "1");
-        });
+        $(currentCardIcon).parentsUntil("#cards", ".card").find(".cardInfo").
+                fadeTo(fadeDuration / 0.7, 0, function() {
+                    $(this).parentsUntil("#cards", ".card").css("z-index",
+                            "1");
+                });
     }
     currentCardIcon = cardIcon;
     $(currentCardIcon).parentsUntil("#cards", ".card").css("z-index", "4");
     $(currentCardIcon).fadeTo(fadeDuration, 1);
-    $(currentCardIcon).parentsUntil("#cards", ".card").find(".cardInfo").fadeTo(fadeDuration / 0.7, 1);
+    $(currentCardIcon).parentsUntil("#cards", ".card").find(".cardInfo").
+            fadeTo(fadeDuration / 0.7, 1);
 }
 
 function setRandomCard() {
-    cardIndex = getRandomIndex($("#whatWeDid .card img").size(), $.inArray(currentCardIcon, $(".card img")));
+    cardIndex = getRandomIndex($("#whatWeDid .card img").size(), $.inArray(
+            currentCardIcon, $(".card img")));
     setCard($("#whatWeDid .card img")[cardIndex]);
 }
 
@@ -50,7 +54,8 @@ function resetCards() {
         $(this).css("opacity", "");
         $(this).parentsUntil("#cards", ".card").find(".cardInfo").stop();
         $(this).parentsUntil("#cards", ".card").css("z-index", "");
-        $(this).parentsUntil("#cards", ".card").find(".cardInfo").css("opacity", "");
+        $(this).parentsUntil("#cards", ".card").find(".cardInfo").css(
+                "opacity", "");
     });
     $("#whatWeDid #moreCards").css("display", "");
     $("#whatWeDid #showLess").css("display", "");

@@ -11,7 +11,7 @@ function replaceImgUrl() {
     if (window.devicePixelRatio > 1) {
         $("img").each(function() {
             path = $(this).attr("src").replace("img", "img2x");
-            $(this).attr("src", path); 
+            $(this).attr("src", path);
         });
         $("*").each(function() {
             image = $(this).css("background-image");

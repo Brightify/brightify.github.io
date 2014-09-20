@@ -129,7 +129,7 @@ img {
     #header {
         height: 100%;
     }
-    
+
     #content {
         top: 100%;
     }
@@ -140,7 +140,7 @@ img {
         position: relative;
         height: 400px;
     }
-    
+
     #content {
         top: 0px;
         position: relative;
@@ -201,8 +201,8 @@ img {
     line-height: 35px;
 }
 
-.current {
-    font-weight: bold !important;
+#whatWeDo #language .current {
+    font-weight: bold;
 }
 
 #whatWeDo h2 {
