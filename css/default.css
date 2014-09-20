@@ -116,7 +116,7 @@ img {
 #content {
     top: 750px;
     position: absolute;
-    width: 100%;
+    min-width: 100%;
     z-index: 1;
 }
 
