@@ -1,0 +1,288 @@
+h1, h2, h3 {
+    font-size: 36px;
+}
+
+h1 {
+    width: 360px;
+    margin: 0px auto;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.mainLink {
+    padding-bottom: 0px;
+    border-radius: 20px;
+    line-height: 40px;
+    padding: 0px 20px;
+}
+
+.mainLink:hover {
+    opacity: 0.9;
+}
+
+.mainLink:hover::after {
+    opacity: 0;
+}
+
+.mainLink::after {
+    height: 0px;
+}
+
+.center {
+    width: 500px;
+}
+
+#whatWeDo .center {
+    min-height: 1060px;
+}
+
+#whatWeDo #background {
+    max-width: 646px;
+}
+
+#whatWeDo #background #centeredDiv div {
+    max-width: 646px;
+    background-image: url("../img/what_we_do_mobile.png");
+    background-size: 646px 824px;
+    background-position: center 240px;
+}
+
+#whatWeDo #language a {
+    background-color: transparent;
+}
+
+#whatWeDo h2 {
+    margin-left: 75px;
+}
+
+#whatWeDo p {
+    max-width: 350px;
+    margin-left: 75px;
+}
+
+#whatWeDo a {
+    color: #ffffff;
+    background-color: #3aa8d2;
+}
+
+#whyAndHow .center {
+    background-size: 328px 287px;
+    background-position: center 160px;
+}
+
+#whyAndHow #rightAligment {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+#whyAndHow h2:nth-of-type(1) {
+    padding-top: 55px;
+}
+
+#whyAndHow h2:nth-of-type(2) {
+    margin-top: 410px;
+    margin-bottom: 30px;
+}
+
+#whyAndHow a {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    color: #d62942;
+    background-color: #ffffff;
+}
+
+#whyAndHow p {
+    max-width: 350px;
+}
+
+#whatWeDid h2, #whatWeDid p {
+    margin-left: 75px;
+    max-width: 350px;
+}
+
+#whatWeDid h2 {
+    padding-top: 55px;
+    margin-bottom: 13px;
+}
+
+#whatWeDid a {
+    color: #f3f5f9;
+    background-color: #a9b0be;
+}
+
+#whatWeDid #cards {
+    position: relative;
+    width: 100%;
+    margin-top: 35px;
+}
+
+#whatWeDid .card {
+    position: relative;
+}
+
+#whatWeDid .cardInfo {
+    background-color: #f3f5f9;
+    width: 466px;
+    min-height: 170px;
+    margin: 17px 15px 0px 15px;
+    overflow: hidden;
+}
+
+#whatWeDid .card .cardImage {
+    position: absolute;
+    height: 100%;
+    width: 120px;
+    top: 0px;
+    left: 50px;
+}
+
+#whatWeDid .card img {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+}
+
+#whatWeDid .cardInfo h3, #whatWeDid .cardInfo p, #whatWeDid .cardInfo a {
+    margin-left: 190px;
+}
+
+#whatWeDid .cardInfo h3 {
+    margin-top: 30px;
+}
+
+#whatWeDid .cardInfo p {
+    font-size: 16px;
+    margin-bottom: 90px;
+}
+
+#whatWeDid .cardInfo a {
+    position: absolute;
+    bottom: 35px;
+}
+
+#whatWeDid #moreCards {
+    display: none;
+}
+
+#whatWeDid #cardsNavigation {
+    width: 100%;
+    text-align: center;
+}
+
+#whatWeDid #showMore, #whatWeDid #showLess {
+    font-family: "Lato";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer; 
+    color: #ffffff;
+    background-color: #3aa8d2;
+    margin: 30px 0px 35px 0px;
+}
+
+#whatWeDid #showLess {
+    display: none;
+}
+
+#youCanHaveItToo .center {
+    background-position: center 235px;
+}
+
+#youCanHaveItToo h2, #youCanHaveItToo p {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+#youCanHaveItToo h2 {
+    padding-top: 75px;
+    margin-bottom: 480px;
+}
+
+#youCanHaveItToo p {
+    margin-top: 20px;
+}
+
+#youCanHaveItToo a {
+    margin-bottom: 60px;
+    color: #3fafc7;
+    background-color: #ffffff;
+}
+
+#getInTouch h2 {
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+#getInTouch p {
+    margin: 25px 75px 0px 75px;
+    width: 350px;
+}
+
+#getInTouch a {
+    margin-bottom: 35px;
+    color: #ffffff;
+    background-color: #3aa8d2;
+}
+
+#getInTouch .contacts {
+    position: relative;
+    margin: 10px 75px 45px 75px;
+    width: 350px;
+    height: 100px;
+    display: block;
+}
+
+#getInTouch .contacts span {
+    display: block;
+    width: 350px;
+    position: absolute;
+}
+
+#getInTouch .contacts span:nth-of-type(1) {
+    top: 60px;
+}
+
+#getInTouch .contacts span:nth-of-type(2) {
+    top: 0px;
+}
+
+#getInTouch .socials a {
+    background-color: transparent;
+}
+
+#joinOurTeam #slashes {
+    position: absolute;
+    font-size: 182px;
+    top: 160px;
+    left: 75px;
+}
+
+#joinOurTeam #job {
+    width: 350px;
+    margin: 0px 75px 0px 75px;
+}
+
+#joinOurTeam h2 {
+    padding-top: 60px;
+    margin-bottom: 245px;
+}
+
+#joinOurTeam p {
+    margin-bottom: 60px;
+}
+
+#joinOurTeam a {
+    font-size: 18px;
+    margin-bottom: -8px;
+}

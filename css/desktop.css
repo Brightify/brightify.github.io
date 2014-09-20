@@ -1,272 +1,59 @@
-body {
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-}
-
 h1, h2, h3 {
-    font-family: "Open Sans";
-    font-weight: 300;
     font-size: 42px;
-    line-height: normal;
-}
-
-h1 {
-    text-align: center;
-    color: #575757;
-}
-
-h1 span {
-    font-weight: 400;
-    font-style: italic;
-}
-
-h2 {
-    color: #393939;
-}
-
-h2 span {
-    font-weight: bold;
 }
 
 h3 {
     font-size: 30px;
-    color: #393939;
-}
-
-a {
-    font-family: "Lato";
-    font-weight: bold;
-    font-style: italic;
-    font-size: 20px; 
-    text-decoration: none;
-    display: inline-block;
-    color: #3aa8d2;
-    position: relative;
-}
-
-.highlight {
-    padding-bottom: 8px;
-}
-
-.highlight:hover::after {
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-    -moz-transform: translateY(0px);
-    transform: translateY(0px);
-}
-
-.highlight::after {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background: rgba(0, 0, 0, 0.1);
-    content: "";
-    opacity: 0;
-    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
-    transition: opacity 0.3s, transform 0.3s;
-    -webkit-transform: translateY(10px);
-    -moz-transform: translateY(10px);
-    transform: translateY(10px);
 }
 
 p {
-    font-family: "Lato";
     font-size: 20px;
-    line-height: normal;
-}
-
-img {
-    user-drag: none; 
-    -moz-user-select: none; 
-    -webkit-user-drag: none;
 }
 
 .center {
     max-width: 1400px;
-    height: 100%;
-    margin: 0px auto;
-    position: relative;
-}
-
-#header {
-    position: fixed;
-    display: table;
-    text-align: center;
-    width: 100%;
-    height: 750px;
-    z-index: 0;
-    background: #ffffff;
-    background: -moz-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f8f8f8));
-    background: -webkit-linear-gradient(top, #ffffff 0%,#f8f8f8 100%);
-    background: -o-linear-gradient(top, #ffffff 0%,#f8f8f8 100%);
-    background: -ms-linear-gradient(top, #ffffff 0%,#f8f8f8 100%);
-}
-
-#header .center {
-    height: auto;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-#header img {
-    margin-bottom: 80px;
-}
-
-#content {
-    top: 750px;
-    position: absolute;
-}
-
-#content > div {
-    padding: 0px 15px;
-}
-
-@media (max-height: 750px) {
-    #header {
-        height: 100%;
-    }
-    
-    #content {
-        top: 100%;
-    }
-}
-
-@media (max-height: 400px) {
-    #header {
-        position: relative;
-        height: 400px;
-    }
-    
-    #content {
-        top: 0px;
-        position: relative;
-    }
-}
-
-#content {
-    width: 100%;
-    z-index: 1;
-}
-
-#whatWeDo {
-    position: relative;
-    min-height: 925px;
-    background-color: #ffffff;
-    overflow: hidden;
-}
-
-#whatWeDo #background {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    max-width: 1900px;
-    left: 50%;
-}
-
-#whatWeDo #background #centeredDiv {
-    position: relative;
-    left: -50%;
-    height: 100%;
-    background-color: transparent;
-}
-
-#whatWeDo #background #centeredDiv div {
-    position: absolute;
-    height: 1465px;
-    max-width: 1700px;
-    width: 100%;
-    right: 0px;
-    background-image: url("../img/what_we_do.png");
-    background-size: 1741px 1465px;
-    background-position: center -215px;
-    background-repeat: no-repeat;
 }
 
 #whatWeDo .center {
     min-height: 925px;
 }
 
-#whatWeDo #language {
-    position: absolute;
-    z-index: 100;
-    top: 25px;
-    right: 15px;
-    width: 90px;
-    height: 35px;
-    background-color: #8097b9;
-    border-radius: 35px;
-    opacity: 0.75;
+#whatWeDo #background {
+    max-width: 1900px;
 }
 
-#whatWeDo #language div {
-    margin-left: 5px;
-    height: 100%;
-}
-
-#whatWeDo #language a {
-    float: left;
-    font-style: normal;
-    font-weight: normal;
-    color: #ffffff;
-    margin-top: 0px;
-    margin-left: 10px;
-    line-height: 35px;
-}
-
-.current {
-    font-weight: bold !important;
+#whatWeDo #background #centeredDiv div {
+    max-width: 1700px;
+    background-image: url("../img/what_we_do.png");
+    background-size: 1741px 1465px;
+    background-position: center -215px;
 }
 
 #whatWeDo h2 {
-    padding-top: 115px;
-    padding-left: 12px;
+    margin-left: 12px;
 }
 
 #whatWeDo p {
-    color: #504d4d;
-    margin-top: 12px;
     max-width: 40%;
-    padding-left: 12px;
-}
-
-#whatWeDo a {
-    margin-top: 10px;
-}
-
-#whyAndHow {
-    position: relative;
-    background-color: #d62942;
-    min-height: 815px;
+    margin-left: 12px;
 }
 
 #whyAndHow .center {
-    min-height: 815px;
-    background-image: url("../img/heart.png");
     background-size: 507px 455px;
     background-position: 0px center;
-    background-repeat: no-repeat;
 }
 
 #whyAndHow #rightAligment {
-    position: relative;
     margin-left: 60%;
-}
-
-#whyAndHow h2, #whyAndHow p {
-    color: #ffffff;
-}
-
-#whyAndHow p {
-    max-width: 450px;
 }
 
 #whyAndHow h2 {
     padding-top: 120px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+#whyAndHow p {
+    max-width: 450px;
 }
 
 #whyAndHow a {
@@ -275,27 +62,27 @@ img {
     margin-bottom: 125px;
 }
 
+
 #whatWeDid {
-    position: relative;
-    background-color: #ffffff;
     height: 920px;
 }
 
 #whatWeDid h2, #whatWeDid p {
-    padding-left: 10px;
+    margin-left: 10px;
     max-width: 550px;
 }
 
 #whatWeDid h2 {
     padding-top: 70px;
-    padding-bottom: 13px;
-    color: #393939;
+    margin-bottom: 13px;
 }
 
 #whatWeDid p {
-    padding-top: 3px;
-    padding-bottom: 15px;
-    color: #504d4d;
+    margin-top: 3px;
+}
+
+#whatWeDid a {
+    margin-bottom: 5px;
 }
 
 #whatWeDid #cards {
@@ -314,23 +101,20 @@ img {
     background-color: rgba(232, 238, 247, 0.84);
     width: 235px;
     padding-top: 200px;
+    padding-bottom: 15px;
     opacity: 0;
-    border-radius: 10px;
-    -webkit-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.12);
-    -moz-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.12);
-    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.12);
     text-align: center;
 }
 
 #whatWeDid .card img {
     cursor: pointer; 
-    position: absolute;
     top: 35px;
     left: 45.5px;
-    display: block;
     opacity: 0.3;
     width: 144px;
     height: 144px;
+    position: absolute;
+    display: block;
     z-index: 2;
 }
 
@@ -342,78 +126,52 @@ img {
     font-size: 18px;
 }
 
-#whatWeDid a {
-    margin-bottom: 5px;
+#whatWeDid #moreCards {
+    display: initial;
 }
 
-#youCanHaveItToo {
-    position: relative;
-    background-color: #3fafc7;
-    min-height: 840px;
+#whatWeDid #showMore, #whatWeDid #showLess {
+    display: none;
 }
 
 #youCanHaveItToo .center {
-    min-height: 840px;
     max-width: 1200px;
-    background-image: url("../img/devices.png");
-    background-size: 495px 359px;
     background-position: right center;
-    background-repeat: no-repeat;
 }
 
 #youCanHaveItToo h2, #youCanHaveItToo p, #youCanHaveItToo a {
-    color: #ffffff;
     text-align: right;
 }
 
 #youCanHaveItToo h2 {
     padding-top: 220px;
-    padding-left: 24px;
-    padding-bottom: 20px;
-    width: 350px;
+    margin-left: 24px;
+    margin-bottom: 20px;
 }
 
 #youCanHaveItToo p {
-    padding-top: 30px;
-    padding-left: 24px;
-    width: 350px;
+    margin-top: 30px;
+    margin-left: 24px;
 }
 
 #youCanHaveItToo a {
     margin-bottom: 220px;
-}
-
-#getInTouch {
-    position: relative;
-    background-color: #ffffff;
-    min-height: 750px;
-    text-align: center;
-}
-
-#getInTouch .center {
-    min-height: 750px;
+    color: #ffffff;
 }
 
 #getInTouch h2 {
-    color: #626262;
     padding-top: 115px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #getInTouch p {
     margin: 0px auto;
-    color: #626262;
-    padding-top: 15px;
+    margin-top: 15px;
     width: 480px;
 }
 
-#getInTouch p span {
-    padding-left: 30px;
-    padding-right: 30px;
-    font-family: "Lato";
-    font-size: 30px;
-    line-height: normal;
-    color: #000000;
+#getInTouch a {
+    margin-bottom: 70px;
 }
 
 #getInTouch .contacts {
@@ -421,58 +179,23 @@ img {
     margin-bottom: 75px;
 }
 
+#getInTouch .contacts span {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 #getInTouch .socials {
-    width: auto;
     margin-bottom: 65px;
-    margin-left: 8px;
-    margin-right: 8px;
-}
-
-#getInTouch .socials a {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#getInTouch a {
-    margin-bottom: 70px;
-}
-
-#getInTouch #facebook, #getInTouch #gplus {
-    width: 107px;
-    height: 107px;
-    background-size: 107px 107px;
-}
-
-#getInTouch #facebook:hover, #getInTouch #gplus:hover {
-    opacity: 0.9;
-}
-
-#getInTouch #facebook {
-    background-image: url("../img/facebook.png");
-}
-
-#getInTouch #gplus {
-    background-image: url("../img/gplus.png");
-}
-
-#joinOurTeam {
-    position: relative;
-    background-color: #69c44a;
-    min-height: 330px;
 }
 
 #joinOurTeam .center {
-    min-height: 190px;
     padding-top: 40px;
     padding-bottom: 40px;
     max-width: 900px;
 }
 
 #joinOurTeam #slashes {
-    font-family: "Lato";
-    font-weight: bold;
     font-size: 254px;
-    color: #ffffff;
     display: inline-block;
     vertical-align: middle;
     margin-left: 40px;
@@ -482,19 +205,14 @@ img {
 #joinOurTeam #job {
     display: inline-block;
     vertical-align: middle;
+    max-width: 530px;
 }
 
 #joinOurTeam h2 {
     padding-top: 40px;
-    padding-bottom: 40px;
-    color: #ffffff;
+    margin-bottom: 40px;
 }
 
 #joinOurTeam p {
-    color: #ffffff;
-    padding-bottom: 25px;
-}
-
-#joinOurTeam a {
-    color: #fff600;
+    margin-bottom: 25px;
 }

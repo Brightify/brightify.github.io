@@ -10,10 +10,12 @@
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
         <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/default.css">
         <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1100px)">
-        <link rel="stylesheet" href="css/cards.css">
-        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/cards.css" media="screen and (min-width: 1100px)">
+        <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 1099px)">
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,700italic&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,600&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <script src="js/jquery.js"></script>
         <script src="js/language.js"></script>
         <script src="js/cards.js"></script>
@@ -48,7 +50,7 @@
                         Duis aute irure dolor in mollit anim id est laborum.
                     </p>
                     <p>
-                        <a class="highlight" href="">learn more ></a>
+                        <a class="highlight mainLink" href="">learn more ></a>
                     </p>
                 </div>
             </div>
@@ -64,7 +66,7 @@
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                         </p>
                         <p>
-                            <a class="highlight" href="">learn more about our philosophy ></a>
+                            <a class="highlight mainLink" href="">learn more about our philosophy ></a>
                         </p>
                     </div>
                 </div>
@@ -79,91 +81,123 @@
                     <div id="cards">
                         <div class="card" id="dimmer">
                             <div class="cardInfo">
-                                <a class="highlight" href="">details ></a>
+                                <a class="highlight mainLink" href="">details ></a>
                                 <h3>Dimmer</h3>
                                 <p>Android + iOS aplikace</p>
                             </div>
-                            <img src="img/dimmer.png" alt="Dimmer">
+                            <div class="cardImage">
+                                <img src="img/dimmer.png" alt="Dimmer">
+                            </div>
                         </div>
                         <div class="card" id="personalWebs">
                             <div class="cardInfo">
-                                <a class="highlight" href="">details ></a>
+                                <a class="highlight mainLink" href="">details ></a>
                                 <h3>Personal webs</h3>
                                 <p>Android + iOS aplikace</p>
                             </div>
-                            <img src="img/osobniweby.png" alt="Personal webs">
+                            <div class="cardImage">
+                                <img src="img/osobniweby.png" alt="Personal webs">
+                            </div>
                         </div>
                         <div class="card" id="dotekomanie">
                             <div class="cardInfo">
-                                <a class="highlight" href="">details ></a>
+                                <a class="highlight mainLink" href="">details ></a>
                                 <h3>dotekománie.cz</h3>
                                 <p>Android + iOS aplikace</p>
                             </div>
-                            <img src="img/dotekomanie.png" alt="dotekománie.cz">
-                        </div>
-                        <div class="card" id="logify">
-                            <div class="cardInfo">
-                                <a class="highlight" href="">details ></a>
-                                <h3>Logify</h3>
-                                <p>Android + iOS aplikace</p>
+                            <div class="cardImage">
+                                <img src="img/dotekomanie.png" alt="dotekománie.cz">
                             </div>
-                            <img src="img/logify.png" alt="Logify">
                         </div>
-                        <div class="card" id="wealthico">
-                            <div class="cardInfo">
-                                <a class="highlight" href="">details ></a>
-                                <h3>Wealthico</h3>
-                                <p>Android + iOS aplikace</p>
+                        <div id="moreCards">
+                            <div class="card" id="logify">
+                                <div class="cardInfo">
+                                    <a class="highlight mainLink" href="">details ></a>
+                                    <h3>Logify</h3>
+                                    <p>Android + iOS aplikace</p>
+                                </div>
+                                <div class="cardImage">
+                                    <img src="img/logify.png" alt="Logify">
+                                </div>
                             </div>
-                            <img src="img/wealthico.png" alt="Wealthico">
+                            <div class="card" id="wealthico">
+                                <div class="cardInfo">
+                                    <a class="highlight mainLink" href="">details ></a>
+                                    <h3>Wealthico</h3>
+                                    <p>Android + iOS aplikace</p>
+                                </div>
+                                <div class="cardImage">
+                                    <img src="img/wealthico.png" alt="Wealthico">
+                                </div>
+                            </div>
+                            <div class="card" id="musicstopper">
+                                <div class="cardInfo">
+                                    <a class="highlight mainLink" href="">details ></a>
+                                    <h3>Music Stopper</h3>
+                                    <p>Android + iOS aplikace</p>
+                                </div>
+                                <div class="cardImage">
+                                    <img src="img/musicstopper.png" alt="Music Stopper">
+                                </div>
+                            </div>
+                            <div class="card" id="wiFly">
+                                <div class="cardInfo">
+                                    <a class="highlight mainLink" href="">details ></a>
+                                    <h3>Wi-Fly</h3>
+                                    <p>Android + iOS aplikace</p>
+                                </div>
+                                <div class="cardImage">
+                                    <img src="img/wifly.png" alt="Wi-Fly">
+                                </div>
+                            </div>
+                            <div class="card" id="netMonster">
+                                <div class="cardInfo">
+                                    <a class="highlight mainLink" href="">details ></a>
+                                    <h3>NetMonster</h3>
+                                    <p>Android + iOS aplikace</p>
+                                </div>
+                                <div class="cardImage">
+                                    <img src="img/netmonster.png" alt="NetMonster">
+                                </div>
+                            </div>
+                            <div class="card" id="simplyPong">
+                                <div class="cardInfo">
+                                    <a class="highlight mainLink" href="">details ></a>
+                                    <h3>SimplyPong</h3>
+                                    <p>Android + iOS aplikace</p>
+                                </div>
+                                <div class="cardImage">
+                                    <img src="img/simplypong.png" alt="SimplyPong">
+                                </div>
+                            </div>
+                            <div class="card" id="torch">
+                                <div class="cardInfo">
+                                    <a class="highlight mainLink" href="">details ></a>
+                                    <h3>Torch</h3>
+                                    <p>Android + iOS aplikace</p>
+                                </div>
+                                <div class="cardImage">
+                                    <img src="img/torch.png" alt="Torch">
+                                </div>
+                            </div>
+                            <div class="card" id="pravonadlani">
+                                <div class="cardInfo">
+                                    <a class="highlight mainLink" href="">details ></a>
+                                    <h3>pravonadlani.cz</h3>
+                                    <p>Android + iOS aplikace</p>
+                                </div>
+                                <div class="cardImage">
+                                    <img src="img/pravonadlani.png" alt="pravonadlani.cz">
+                                </div>
+                            </div>
                         </div>
-                        <div class="card" id="musicstopper">
-                            <div class="cardInfo">
-                                <a class="highlight" href="">details ></a>
-                                <h3>Music Stopper</h3>
-                                <p>Android + iOS aplikace</p>
+                        <div id="cardsNavigation">
+                            <div id="showMore" class="mainLink">
+                                show more +
                             </div>
-                            <img src="img/musicstopper.png" alt="Music Stopper">
-                        </div>
-                        <div class="card" id="wiFly">
-                            <div class="cardInfo">
-                                <a class="highlight" href="">details ></a>
-                                <h3>Wi-Fly</h3>
-                                <p>Android + iOS aplikace</p>
-                            </div>
-                            <img src="img/wifly.png" alt="Wi-Fly">
-                        </div>
-                        <div class="card" id="netMonster">
-                            <div class="cardInfo">
-                                <a class="highlight" href="">details ></a>
-                                <h3>NetMonster</h3>
-                                <p>Android + iOS aplikace</p>
-                            </div>
-                            <img src="img/netmonster.png" alt="NetMonster">
-                        </div>
-                        <div class="card" id="simplyPong">
-                            <div class="cardInfo">
-                                <a class="highlight" href="">details ></a>
-                                <h3>SimplyPong</h3>
-                                <p>Android + iOS aplikace</p>
-                            </div>
-                            <img src="img/simplypong.png" alt="SimplyPong">
-                        </div>
-                        <div class="card" id="torch">
-                            <div class="cardInfo">
-                                <a class="highlight" href="">details ></a>
-                                <h3>Torch</h3>
-                                <p>Android + iOS aplikace</p>
-                            </div>
-                            <img src="img/torch.png" alt="Torch">
-                        </div>
-                        <div class="card" id="pravonadlani">
-                            <div class="cardInfo">
-                                <a class="highlight" href="">details ></a>
-                                <h3>pravonadlani.cz</h3>
-                                <p>Android + iOS aplikace</p>
-                            </div>
-                            <img src="img/pravonadlani.png" alt="pravonadlani.cz">
+                            <div id="showLess" class="mainLink">
+                                show less -
+                            </div> 
                         </div>
                     </div>
                 </div>
@@ -178,7 +212,7 @@
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     </p>
                     <p>
-                        <a class="highlight" href="">find out more ></a>
+                        <a class="highlight mainLink" href="">find out more ></a>
                     </p>
                 </div>
             </div>
@@ -189,7 +223,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod incididunt ut labore et dolore magna aliqua incidunt.
                     </p>
                     <p>
-                        <a class="highlight" href="">learn more about our team ></a>
+                        <a class="highlight mainLink" href="">learn more about our team ></a>
                     </p>
                     <p class="contacts">
                         <span>info@brightify.org</span>
@@ -209,9 +243,9 @@
                     <div id="job">
                         <h2>Join our team!</h2>
                         <p>
-                            Looking for a job? You would be disappointed.<br>
-                            Looking for a career? That is the spirit we are looking for!<br>
-                            Take <a class="highlight" href="">The Big Developer Test</a> and let us contact you.
+                            Looking for a job? In that case, you would be disappointed.<br>
+                            Looking for a career? That is the spirit we are looking for! Take 
+                            <a class="highlight" href="">The Big Developer Test</a> and let us contact you.
                         </p>
                     </div>
                 </div>

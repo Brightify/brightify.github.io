@@ -1,0 +1,338 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3 {
+    font-family: "Open Sans";
+    font-weight: 300;
+    line-height: normal;
+}
+
+h1 {
+    text-align: center;
+    color: #575757;
+}
+
+h1 span {
+    font-weight: 400;
+    font-style: italic;
+}
+
+h2 {
+    color: #393939;
+}
+
+h2 span {
+    font-weight: bold;
+}
+
+h3 {
+    color: #393939;
+}
+
+a {
+    font-family: "Lato";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px; 
+    text-decoration: none;
+    display: inline-block;
+    color: #3aa8d2;
+    position: relative;
+}
+
+p {
+    font-family: "Lato";
+    line-height: normal;
+}
+
+img {
+    user-drag: none; 
+    -moz-user-select: none; 
+    -webkit-user-drag: none;
+}
+
+.highlight {
+    padding-bottom: 8px;
+}
+
+.highlight:hover::after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+.highlight::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.1);
+    content: "";
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+.center {
+    height: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+
+#header {
+    position: fixed;
+    display: table;
+    text-align: center;
+    width: 100%;
+    height: 750px;
+    z-index: 0;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f8f8f8));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f8f8f8 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#f8f8f8 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#f8f8f8 100%);
+}
+
+#header .center {
+    height: auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#header img {
+    margin-bottom: 80px;
+}
+
+#content {
+    top: 750px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+#content > div {
+    padding: 0px 15px;
+    position: relative;
+}
+
+@media (max-height: 750px) {
+    #header {
+        height: 100%;
+    }
+    
+    #content {
+        top: 100%;
+    }
+}
+
+@media (max-height: 400px) {
+    #header {
+        position: relative;
+        height: 400px;
+    }
+    
+    #content {
+        top: 0px;
+        position: relative;
+    }
+}
+
+#whatWeDo {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+#whatWeDo #background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 50%;
+}
+
+#whatWeDo #background #centeredDiv {
+    position: relative;
+    left: -50%;
+    height: 100%;
+    background-color: transparent;
+}
+
+#whatWeDo #background #centeredDiv div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0px;
+    background-repeat: no-repeat;
+}
+
+#whatWeDo #language {
+    position: absolute;
+    z-index: 100;
+    top: 25px;
+    right: 15px;
+    width: 90px;
+    height: 35px;
+    background-color: #8097b9;
+    border-radius: 35px;
+    opacity: 0.75;
+}
+
+#whatWeDo #language div {
+    margin-left: 5px;
+    height: 100%;
+}
+
+#whatWeDo #language a {
+    float: left;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 10px;
+    line-height: 35px;
+}
+
+.current {
+    font-weight: bold !important;
+}
+
+#whatWeDo h2 {
+    padding-top: 115px;
+}
+
+#whatWeDo p {
+    color: #504d4d;
+    margin-top: 12px;
+}
+
+#whatWeDo a {
+    margin-top: 10px;
+}
+
+#whyAndHow {
+    background-color: #d62942;
+}
+
+#whyAndHow .center {
+    background-image: url("../img/heart.png");
+    background-repeat: no-repeat;
+}
+
+#whyAndHow #rightAligment {
+    position: relative;
+}
+
+#whyAndHow h2, #whyAndHow p {
+    color: #ffffff;
+}
+
+#whatWeDid {
+    background-color: #ffffff;
+}
+
+#whatWeDid h2 {
+    color: #393939;
+}
+
+#whatWeDid p {
+    color: #504d4d;
+}
+
+#whatWeDid .cardInfo {
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.12);
+}
+
+#youCanHaveItToo {
+    background-color: #3fafc7;
+}
+
+#youCanHaveItToo .center {
+    background-image: url("../img/devices.png");
+    background-size: 495px 359px;
+    background-repeat: no-repeat;
+}
+
+#youCanHaveItToo h2, #youCanHaveItToo p {
+    width: 350px;
+    color: #ffffff;
+}
+
+#getInTouch {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#getInTouch h2 {
+    color: #626262;
+}
+
+#getInTouch p {
+    color: #626262;
+}
+
+#getInTouch .contacts span {
+    font-family: "Lato";
+    font-size: 30px;
+    line-height: normal;
+    color: #000000;
+}
+
+#getInTouch .socials {
+    width: auto;
+}
+
+#getInTouch .socials a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#getInTouch #facebook, #getInTouch #gplus {
+    width: 107px;
+    height: 107px;
+    background-size: 107px 107px;
+}
+
+#getInTouch #facebook:hover, #getInTouch #gplus:hover {
+    opacity: 0.9;
+}
+
+#getInTouch #facebook {
+    background-image: url("../img/facebook.png");
+}
+
+#getInTouch #gplus {
+    background-image: url("../img/gplus.png");
+}
+
+#joinOurTeam {
+    background-color: #69c44a;
+}
+
+#joinOurTeam #slashes {
+    font-family: "Lato";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#joinOurTeam h2 {
+    color: #ffffff;
+}
+
+#joinOurTeam p {
+    color: #ffffff;
+}
+
+#joinOurTeam a {
+    color: #fff600;
+}
