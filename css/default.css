@@ -85,6 +85,7 @@ img {
     height: 100%;
     margin: 0px auto;
     position: relative;
+    overflow: hidden;
 }
 
 #header {
