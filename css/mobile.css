@@ -168,6 +168,8 @@ p {
 
 #whatWeDid #moreCards {
     display: none;
+    overflow: hidden;
+    padding-bottom: 4px;
 }
 
 #whatWeDid #cardsNavigation {

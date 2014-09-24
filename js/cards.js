@@ -1,10 +1,7 @@
 bigScreen = null;
 interval = null;
 
-$(document).ready(function() {
-    screenSizeChange();
-});
-
+$(document).ready(screenSizeChange);
 $(window).resize(screenSizeChange);
 
 function setCard(cardIcon) {
@@ -91,7 +88,9 @@ function screenSizeChange() {
             $("#whatWeDid #showLess").css("display", "inline-block");
         });
         $("#whatWeDid #showLess").click(function() {
+            scrollTop = $(window).scrollTop() - $("#whatWeDid #moreCards").height();
             $("#whatWeDid #moreCards").slideUp("slow");
+            $("body").animate({scrollTop: scrollTop}, "slow");
             $("#whatWeDid #showLess").css("display", "none");
             $("#whatWeDid #showMore").css("display", "inline-block");
         });
