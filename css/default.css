@@ -181,24 +181,44 @@ img {
     right: 15px;
     width: 90px;
     height: 35px;
-    background-color: #8097b9;
-    border-radius: 35px;
-    opacity: 0.75;
 }
 
 #whatWeDo #language div {
-    margin-left: 5px;
+    position: absolute;
     height: 100%;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 35px;
+    opacity: 0.50;
+}
+
+#whatWeDo #language:hover div {
+    opacity: 0.75;
 }
 
 #whatWeDo #language a {
-    float: left;
+    position: absolute;
     font-style: normal;
     font-weight: normal;
     color: #ffffff;
-    margin-top: 0px;
-    margin-left: 10px;
     line-height: 35px;
+    opacity: 0.75;
+}
+
+#whatWeDo #language:hover a {
+    opacity: 1;
+}
+
+#whatWeDo #language a:hover {
+    text-decoration: underline;
+}
+
+#whatWeDo #language a:nth-of-type(1) {
+    left: 15px;
+}
+
+#whatWeDo #language a:nth-of-type(2) {
+    left: 49px;
 }
 
 #whatWeDo #language .current {
@@ -212,10 +232,7 @@ img {
 #whatWeDo p {
     color: #504d4d;
     margin-top: 12px;
-}
-
-#whatWeDo a {
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #whyAndHow {
