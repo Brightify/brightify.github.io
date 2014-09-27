@@ -7,30 +7,6 @@ h3 {
     font-size: 26px;
 }
 
-.mainLink {
-    border-radius: 20px;
-    line-height: 40px;
-    padding: 0px 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.mainLink:hover {
-    opacity: 0.9;
-}
-
-.mainLink:hover::after {
-    opacity: 0;
-}
-
-.mainLink::after {
-    height: 0px;
-}
-
-.center {
-    width: 500px;
-}
-
 #whatWeDo .center {
     min-height: 1060px;
 }

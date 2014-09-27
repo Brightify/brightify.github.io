@@ -1,0 +1,182 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3 {
+    font-family: "Open Sans";
+    font-weight: 300;
+    line-height: normal;
+}
+
+h1 {
+    text-align: center;
+    color: #575757;
+    font-size: 42px;
+}
+
+h1 span {
+    font-weight: 400;
+    font-style: italic;
+}
+
+h2 {
+    color: #393939;
+    font-size: 42px;
+}
+
+h2 span {
+    font-weight: bold;
+}
+
+h3 {
+    color: #393939;
+}
+
+a {
+    font-family: "Lato";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px; 
+    text-decoration: none;
+    display: inline-block;
+    color: #3aa8d2;
+    position: relative;
+}
+
+p {
+    font-family: "Lato";
+    line-height: normal;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+img {
+    user-drag: none; 
+    -moz-user-select: none; 
+    -webkit-user-drag: none;
+}
+
+.highlight {
+    padding-bottom: 8px;
+}
+
+.highlight:hover::after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+.highlight::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.1);
+    content: "";
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+.center {
+    height: 100%;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#language {
+    position: absolute;
+    z-index: 100;
+    top: 25px;
+    right: 15px;
+    width: 90px;
+    height: 35px;
+}
+
+#language div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 35px;
+    opacity: 0.50;
+}
+
+#language:hover div {
+    opacity: 0.75;
+}
+
+#language a {
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 35px;
+    opacity: 0.75;
+    background-color: transparent !important;
+}
+
+#language:hover a {
+    opacity: 1;
+}
+
+#language a:hover {
+    text-decoration: underline;
+}
+
+#language a:nth-of-type(1) {
+    left: 15px;
+}
+
+#language a:nth-of-type(2) {
+    left: 49px;
+}
+
+#language .current {
+    font-weight: bold;
+}
+
+@media (max-width: 1099px) {
+    .mainLink {
+        border-radius: 20px;
+        line-height: 40px;
+        padding: 0px 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mainLink:hover {
+        opacity: 0.9;
+    }
+
+    .mainLink:hover::after {
+        opacity: 0;
+    }
+
+    .mainLink::after {
+        height: 0px;
+    }
+
+    .center {
+        width: 500px;
+    }
+    
+    #language {
+        height: 40px;
+    }
+    
+    #language a {
+        font-size: 22px;
+        line-height: 40px;
+    }   
+}
