@@ -240,11 +240,11 @@ h3 {
 }
 
 #getInTouch .contacts span:nth-of-type(1) {
-    top: 60px;
+    top: 0px;
 }
 
 #getInTouch .contacts span:nth-of-type(2) {
-    top: 0px;
+    top: 60px;
 }
 
 #getInTouch .socials a {
