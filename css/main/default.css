@@ -243,7 +243,7 @@ img {
 }
 
 #whyAndHow .center {
-    background-image: url("../img/heart.png");
+    background-image: url("../../img/main/heart.png");
     background-repeat: no-repeat;
 }
 
@@ -279,7 +279,7 @@ img {
 }
 
 #youCanHaveItToo .center {
-    background-image: url("../img/devices.png");
+    background-image: url("../../img/main/devices.png");
     background-size: 495px 359px;
     background-repeat: no-repeat;
 }
@@ -329,11 +329,11 @@ img {
 }
 
 #getInTouch #facebook {
-    background-image: url("../img/facebook.png");
+    background-image: url("../../img/main/facebook.png");
 }
 
 #getInTouch #gplus {
-    background-image: url("../img/gplus.png");
+    background-image: url("../../img/main/gplus.png");
 }
 
 #joinOurTeam {

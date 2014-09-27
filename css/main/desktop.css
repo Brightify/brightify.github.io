@@ -16,7 +16,7 @@ h3 {
 
 #whatWeDo #background #centeredDiv div {
     max-width: 1700px;
-    background-image: url("../img/what_we_do.png");
+    background-image: url("../../img/main/what_we_do.png");
     background-size: 1741px 1465px;
     background-position: center -215px;
 }
