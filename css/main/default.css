@@ -179,57 +179,6 @@ img {
     background-repeat: no-repeat;
 }
 
-#whatWeDo #language {
-    position: absolute;
-    z-index: 100;
-    top: 25px;
-    right: 15px;
-    width: 90px;
-    height: 35px;
-}
-
-#whatWeDo #language div {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: #000000;
-    border-radius: 35px;
-    opacity: 0.50;
-}
-
-#whatWeDo #language:hover div {
-    opacity: 0.75;
-}
-
-#whatWeDo #language a {
-    position: absolute;
-    font-style: normal;
-    font-weight: normal;
-    color: #ffffff;
-    line-height: 35px;
-    opacity: 0.75;
-}
-
-#whatWeDo #language:hover a {
-    opacity: 1;
-}
-
-#whatWeDo #language a:hover {
-    text-decoration: underline;
-}
-
-#whatWeDo #language a:nth-of-type(1) {
-    left: 15px;
-}
-
-#whatWeDo #language a:nth-of-type(2) {
-    left: 49px;
-}
-
-#whatWeDo #language .current {
-    font-weight: bold;
-}
-
 #whatWeDo h2 {
     padding-top: 115px;
 }
