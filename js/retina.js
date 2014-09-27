@@ -1,11 +1,4 @@
-$(document).ready(function() {
-    retina = replaceImgUrl();
-    $(window).resize(function() {
-        if (!retina) {
-            retina = replaceImgUrl();
-        }
-    });
-});
+$(document).ready(replaceImgUrl);
 
 function replaceImgUrl() {
     if (window.devicePixelRatio > 1) {
@@ -20,7 +13,5 @@ function replaceImgUrl() {
                 $(this).css("background-image", image);
             }
         });
-        return true;
     }
-    return false;
 }

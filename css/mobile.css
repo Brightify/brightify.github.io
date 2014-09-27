@@ -1,7 +1,3 @@
-h1, h2, h3 {
-    font-size: 36px;
-}
-
 h1 {
     width: 360px;
     margin: 0px auto;
@@ -11,14 +7,12 @@ h3 {
     font-size: 26px;
 }
 
-p {
-    font-size: 18px;
-}
-
 .mainLink {
     border-radius: 20px;
     line-height: 40px;
     padding: 0px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .mainLink:hover {
@@ -84,11 +78,11 @@ p {
 }
 
 #whyAndHow h2:nth-of-type(2) {
-    margin: 410px 0px 30px 0px;
+    padding-top: 410px;
 }
 
 #whyAndHow a {
-    margin: 30px 0px 60px 0px;
+    margin-bottom: 60px;
     color: #d62942;
     background-color: #ffffff;
 }
@@ -104,7 +98,6 @@ p {
 
 #whatWeDid h2 {
     padding-top: 55px;
-    margin-bottom: 13px;
 }
 
 #whatWeDid a {
@@ -158,12 +151,15 @@ p {
 
 #whatWeDid .cardInfo p {
     font-size: 16px;
+    margin-top: 0px;
     margin-bottom: 90px;
 }
 
 #whatWeDid .cardInfo a {
     position: absolute;
     bottom: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #whatWeDid #moreCards {
@@ -198,16 +194,13 @@ p {
 }
 
 #youCanHaveItToo h2, #youCanHaveItToo p {
-    margin: 0px 75px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 #youCanHaveItToo h2 {
     padding-top: 75px;
     margin-bottom: 480px;
-}
-
-#youCanHaveItToo p {
-    margin-top: 20px;
 }
 
 #youCanHaveItToo a {
@@ -218,11 +211,11 @@ p {
 
 #getInTouch h2 {
     padding-top: 50px;
-    margin-bottom: 10px;
 }
 
 #getInTouch p {
-    margin: 25px 75px 0px 75px;
+    margin-left: 75px;
+    margin-right: 75px;
     width: 350px;
 }
 
@@ -280,6 +273,5 @@ p {
 }
 
 #joinOurTeam a {
-    font-size: 18px;
     margin-bottom: -8px;
 }
