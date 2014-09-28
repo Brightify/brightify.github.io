@@ -3,6 +3,35 @@
     right: 15px;
 }
 
+.socials {
+    width: auto;
+}
+
+#facebook, #gplus {
+    width: 108px;
+    height: 108px;
+    border-radius: 54px;
+    line-height: 108px;
+    font-size: 66px;
+}
+
+#facebook {
+    background-color: #3a65d3;
+}
+
+#gplus {
+    background-color: #d73b3b;
+}
+
+#gplus span {
+    top: -12px;
+}
+
+#gplus sup {
+    font-size: 34px;
+    top: -19px;
+}
+
 #header {
     position: fixed;
     display: table;
@@ -19,7 +48,7 @@
 }
 
 #header .center {
-    height: auto;
+    height: 100%;
     display: table-cell;
     vertical-align: middle;
 }
@@ -30,7 +59,7 @@
 
 #content {
     top: 750px;
-    position: relative;
+    position: absolute;
     min-width: 100%;
     z-index: 1;
 }
@@ -118,6 +147,10 @@
     background-color: #ffffff;
 }
 
+#whatWeDid .center {
+    height: 100%;
+}
+
 #whatWeDid h2 {
     color: #393939;
 }
@@ -166,50 +199,6 @@
     font-size: 30px;
     line-height: normal;
     color: #000000;
-}
-
-#getInTouch .socials {
-    width: auto;
-}
-
-#getInTouch .socials a {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#getInTouch #facebook, #getInTouch #gplus {
-    width: 108px;
-    height: 108px;
-    border-radius: 54px;
-    text-align: center;
-    line-height: 108px;
-    font-size: 66px;
-    font-style: normal;
-    font-weight: normal;
-    color: #ffffff;
-}
-
-#getInTouch #facebook:hover, #getInTouch #gplus:hover {
-    opacity: 0.9;
-}
-
-#getInTouch #facebook {
-    background-color: #3a65d3;
-}
-
-#getInTouch #gplus {
-    background-color: #d73b3b;
-}
-
-#getInTouch #gplus span {
-    top: -12px;
-    position: relative;
-}
-
-#getInTouch #gplus sup {
-    font-size: 34px;
-    position: relative;
-    top: -19px;
 }
 
 #joinOurTeam {

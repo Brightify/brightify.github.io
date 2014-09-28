@@ -87,7 +87,6 @@ img {
 }
 
 .center {
-    height: 100%;
     margin: 0px auto;
     position: relative;
     overflow: hidden;
@@ -173,4 +172,28 @@ img {
         font-size: 22px;
         line-height: 40px;
     }   
+}
+
+.socials a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#facebook, #gplus {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+#facebook:hover, #gplus:hover {
+    opacity: 0.9;
+}
+
+#gplus span {
+    position: relative;
+}
+
+#gplus sup {
+    position: relative;
 }
