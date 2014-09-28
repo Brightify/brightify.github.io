@@ -95,7 +95,7 @@ img {
 #language {
     position: absolute;
     z-index: 100;
-    width: 92px;
+    width: 94px;
     height: 35px;
 }
 
@@ -136,7 +136,7 @@ img {
 }
 
 #language a:nth-of-type(2) {
-    left: 51px;
+    left: 53px;
 }
 
 #language .current {
