@@ -143,37 +143,6 @@ img {
     font-weight: bold;
 }
 
-@media (max-width: 1099px) {
-    .mainLink {
-        border-radius: 20px;
-        line-height: 40px;
-        padding: 0px 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .mainLink:hover {
-        opacity: 0.9;
-    }
-
-    .mainLink:hover::after {
-        opacity: 0;
-    }
-
-    .mainLink::after {
-        height: 0px;
-    }
-    
-    #language {
-        height: 40px;
-    }
-    
-    #language a {
-        font-size: 22px;
-        line-height: 40px;
-    }   
-}
-
 .socials a {
     margin-left: 10px;
     margin-right: 10px;
