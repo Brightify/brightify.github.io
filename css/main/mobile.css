@@ -7,6 +7,10 @@ h3 {
     font-size: 26px;
 }
 
+.center {
+    width: 500px;
+}
+
 #whatWeDo .center {
     min-height: 1060px;
 }
@@ -46,11 +50,11 @@ h3 {
 }
 
 #whyAndHow h2:nth-of-type(1) {
-    padding-top: 55px;
+    margin-top: 55px;
 }
 
 #whyAndHow h2:nth-of-type(2) {
-    padding-top: 410px;
+    margin-top: 410px;
 }
 
 #whyAndHow a {
@@ -69,7 +73,7 @@ h3 {
 }
 
 #whatWeDid h2 {
-    padding-top: 55px;
+    margin-top: 55px;
 }
 
 #whatWeDid a {
@@ -171,7 +175,7 @@ h3 {
 }
 
 #youCanHaveItToo h2 {
-    padding-top: 75px;
+    margin-top: 75px;
     margin-bottom: 480px;
 }
 
@@ -182,7 +186,7 @@ h3 {
 }
 
 #getInTouch h2 {
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 #getInTouch p {
@@ -236,7 +240,7 @@ h3 {
 }
 
 #joinOurTeam h2 {
-    padding-top: 60px;
+    margin-top: 60px;
     margin-bottom: 245px;
 }
 

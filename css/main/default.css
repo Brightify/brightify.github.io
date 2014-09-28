@@ -1,3 +1,8 @@
+#language {
+    top: 25px;
+    right: 15px;
+}
+
 #header {
     position: fixed;
     display: table;
@@ -25,7 +30,7 @@
 
 #content {
     top: 750px;
-    position: absolute;
+    position: relative;
     min-width: 100%;
     z-index: 1;
 }
@@ -85,7 +90,7 @@
 }
 
 #whatWeDo h2 {
-    padding-top: 115px;
+    margin-top: 115px;
 }
 
 #whatWeDo p {
@@ -173,9 +178,15 @@
 }
 
 #getInTouch #facebook, #getInTouch #gplus {
-    width: 107px;
-    height: 107px;
-    background-size: 107px 107px;
+    width: 108px;
+    height: 108px;
+    border-radius: 54px;
+    text-align: center;
+    line-height: 108px;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
 }
 
 #getInTouch #facebook:hover, #getInTouch #gplus:hover {
@@ -183,11 +194,22 @@
 }
 
 #getInTouch #facebook {
-    background-image: url("../../img/main/facebook.png");
+    background-color: #3a65d3;
 }
 
 #getInTouch #gplus {
-    background-image: url("../../img/main/gplus.png");
+    background-color: #d73b3b;
+}
+
+#getInTouch #gplus span {
+    top: -12px;
+    position: relative;
+}
+
+#getInTouch #gplus sup {
+    font-size: 34px;
+    position: relative;
+    top: -19px;
 }
 
 #joinOurTeam {
