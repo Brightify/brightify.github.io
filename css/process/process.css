@@ -1,0 +1,118 @@
+#footer h2 {
+    margin-top: 50px;
+}
+
+#footer .convinced {
+    width: 450px;
+    line-height: normal;
+    display: block;
+    margin: 12px auto 0px auto;
+}
+
+#content h2, #content p {
+    width: 300px;
+}
+
+#content img, #content .description {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#content .segment {
+    position: relative;
+    margin-bottom: 115px
+}
+
+#content #discovery {
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 170px;
+}
+
+#content #brainstorming {
+    width: 500px;
+    margin-left: auto; 
+    margin-right: 20px;
+}
+
+#content #prototyping {
+    width: 500px;
+    margin-left: 20px; 
+}
+
+#content #developing {
+    width: 500px;
+    margin-left: auto; 
+    margin-right: 20px;
+}
+
+#content #deployment {
+    width: 500px;
+    margin-left: 20px; 
+}
+
+#content .path {
+    position: absolute;
+    /* display: none; */
+    width: 300px;
+    height: 150px;
+}
+
+#content .path div { 
+    position: absolute;
+}
+
+#content .path .leftPoint {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    left: -16px;
+}
+
+#content .path .rightPoint {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    right: -16px;
+}
+
+#content .path > div:nth-of-type(1) {
+    top: -16px;
+}
+
+#content .path > div:nth-of-type(2) {
+    bottom: -16px;
+}
+
+#content .path .lines {
+    width: 100%;
+    height: 100%;
+}
+
+#content .path .lines div {
+    display: none;
+}
+
+#content .path .topLine {
+    width: calc(100% + 3px);
+    height: 4px;
+    top: -2px;
+}
+
+#content .path .rightLine {
+    width: 4px;
+    height: calc(100% + 3px);
+    right: -2px;
+}
+
+#content .path .bottomLine {
+    width: calc(100% + 3px);
+    height: 4px;
+    bottom: -2px;
+}
+
+#content .path .leftLine {
+    width: 4px;
+    height: calc(100% + 3px);
+    left: -2px;
+}

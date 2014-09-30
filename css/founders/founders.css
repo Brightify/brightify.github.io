@@ -9,8 +9,8 @@ h2 {
     color: #2c2c2c;
 }
 
-p {
-    color: #504d4d;
+#content {
+    text-align: center;
 }
 
 #content p {
