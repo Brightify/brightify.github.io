@@ -23,31 +23,35 @@
     margin-bottom: 115px
 }
 
+#content .segment img {
+    margin-right: 50px;
+}
+
 #content #discovery {
-    width: 500px;
+    width: 677px;
     margin-left: 20px;
     margin-top: 170px;
 }
 
 #content #brainstorming {
-    width: 500px;
+    width: 582px;
     margin-left: auto; 
     margin-right: 20px;
 }
 
 #content #prototyping {
-    width: 500px;
+    width: 644px;
     margin-left: 20px; 
 }
 
 #content #developing {
-    width: 500px;
+    width: 791px;
     margin-left: auto; 
     margin-right: 20px;
 }
 
 #content #deployment {
-    width: 500px;
+    width: 547px;
     margin-left: 20px; 
 }
 
