@@ -96,12 +96,12 @@
     text-align: center;
     min-height: 155px;
     overflow: hidden;
+    padding-bottom: 45px;
 }
 
-#footer p {
+#footer div {
     display: inline-block;
-    line-height: 155px;
-    margin: 0px;
+    margin-top: 45px;
     z-index: 0;
 }
 
@@ -109,7 +109,7 @@
     margin-left: 20px;
 }
 
-#footer .contacts span {
+#footer .contacts a {
     margin-left: 20px;
     margin-right: 20px;
     vertical-align: middle;
@@ -149,6 +149,5 @@
     #footer .socials {
         margin-left: 0px;
         line-height: normal;
-        margin-bottom: 55px;
     }
 }

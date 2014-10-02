@@ -238,17 +238,17 @@ h3 {
     display: block;
 }
 
-#getInTouch .contacts span {
+#getInTouch .contacts a {
     display: block;
     width: 350px;
     position: absolute;
 }
 
-#getInTouch .contacts span:nth-of-type(1) {
+#getInTouch .contacts a:nth-of-type(1) {
     top: 0px;
 }
 
-#getInTouch .contacts span:nth-of-type(2) {
+#getInTouch .contacts a:nth-of-type(2) {
     top: 60px;
 }
 
