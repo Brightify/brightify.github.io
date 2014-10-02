@@ -1,5 +1,6 @@
 h3 {
     font-size: 30px;
+    margin-top: -8px;
 }
 
 .center {
@@ -88,7 +89,7 @@ h3 {
 #whatWeDid .cardInfo {
     background-color: rgba(232, 238, 247, 0.84);
     width: 235px;
-    padding: 200px 0px 15px 0px;
+    padding: 197px 0px 20px 0px;
     opacity: 0;
     text-align: center;
 }

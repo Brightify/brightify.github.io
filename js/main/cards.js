@@ -60,7 +60,7 @@ function resetCards() {
 }
 
 function checkScreenSize() {
-    return window.matchMedia("screen and (min-width: 1100px)").matches;
+    return window.matchMedia("(min-width: 1100px)").matches;
 }
 
 function screenSizeChange() {
