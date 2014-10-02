@@ -26,6 +26,7 @@
     top: 0px;
     width: 100%;
     height: 100px;
+    z-index: 1;
     background-color: #f8f8f8;
 }
 
@@ -81,6 +82,7 @@
     position: relative;
     margin-top: 100px;
     background: #ffffff;
+    z-index: 0;
     background: -moz-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f8f8f8));
     background: -webkit-linear-gradient(top, #ffffff 0%,#f8f8f8 100%);
@@ -92,12 +94,14 @@
     position: relative;
     text-align: center;
     min-height: 155px;
+    overflow: hidden;
 }
 
 #footer p {
     display: inline-block;
     line-height: 155px;
     margin: 0px;
+    z-index: 0;
 }
 
 #footer .socials {
