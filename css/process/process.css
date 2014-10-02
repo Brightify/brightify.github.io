@@ -13,18 +13,28 @@
     width: 300px;
 }
 
-#content img, #content .description {
-    display: inline-block;
-    vertical-align: middle;
+#content .segment p span {
+    font-weight: bold;
+    font-style: italic;
 }
 
 #content .segment {
     position: relative;
-    margin-bottom: 115px
+    margin-bottom: 150px;
+}
+
+#content .segment img, #content .segment .description {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
 }
 
 #content .segment img {
     margin-right: 50px;
+}
+
+#content .segment .description {
+    width: 300px;
 }
 
 #content #discovery {
@@ -57,7 +67,7 @@
 
 #content .path {
     position: absolute;
-    /* display: none; */
+    display: none;
     width: 300px;
     height: 150px;
 }
@@ -98,25 +108,52 @@
 }
 
 #content .path .topLine {
-    width: calc(100% + 3px);
+    width: calc(100% + 2px);
     height: 4px;
     top: -2px;
 }
 
 #content .path .rightLine {
     width: 4px;
-    height: calc(100% + 3px);
+    height: calc(100% + 2px);
     right: -2px;
 }
 
 #content .path .bottomLine {
-    width: calc(100% + 3px);
+    width: calc(100% + 2px);
     height: 4px;
     bottom: -2px;
 }
 
 #content .path .leftLine {
     width: 4px;
-    height: calc(100% + 3px);
+    height: calc(100% + 2px);
     left: -2px;
+}
+
+@media (max-width: 999px) {
+    #content .segment {
+        width: auto !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    
+    #content .segment img, #content .segment .description {
+        display: block;
+    }
+    
+    #content .segment img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #content .segment .description {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #content #discovery .description {
+        margin-top: -25px;
+    }
 }
