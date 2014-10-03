@@ -1,7 +1,6 @@
 body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    -webkit-overflow-scrolling: touch;
 }
 
 h1, h2, h3 {
@@ -99,6 +98,7 @@ img {
     z-index: 100;
     width: 94px;
     height: 35px;
+    -webkit-transform: translate3d(0, 0, 0);
 }
 
 #language div {
