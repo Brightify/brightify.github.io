@@ -1,46 +1,5 @@
 #content {
-    background: #ffffff;
     text-align: center;
-}
-
-input {
-    font-family: "Lato";
-    background-color: #e7e7e7;
-    font-size: 20px;
-    line-height: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: none;
-    color: #504d4d;
-    border-radius: 4px;
-    outline: 0;
-}
-
-input:focus {
-    outline: #d5d5d5 solid 2px;
-}
-
-input[type=submit] {
-    font-weight: bold;
-    font-size: 24px;
-    color: #ffffff;
-    background-color: #77b11c;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 20px;
-    cursor: pointer; 
-}
-
-input[type=submit]:hover {
-    background-color: #8dcd27;
-}
-
-input[type=submit]:disabled {
-    background-color: #c7c7c7;
-}
-
-input[type=submit]:focus {
-    outline: 0;
 }
 
 #content .desktop {
@@ -58,6 +17,7 @@ input[type=submit]:focus {
 
 #content .center {
     padding-top: 130px;
+    max-width: 1515px;
 }
 
 #content .center img {
@@ -67,10 +27,6 @@ input[type=submit]:focus {
 
 #content .center img {
     margin-right: 40px;
-}
-
-#content .center div h1 {
-    text-align: left;
 }
 
 #content .center div p {
@@ -110,6 +66,6 @@ input[type=submit]:focus {
     }
     
     #content .mobile form:nth-of-type(2) input {
-        background: #aeb89d;
+        background-color: #aeb89d;
     }
 }

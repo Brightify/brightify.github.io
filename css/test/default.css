@@ -1,0 +1,62 @@
+h1 {
+    text-align: left;
+}
+
+input {
+    font-family: "Lato";
+    background-color: #e7e7e7;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    color: #504d4d;
+    border-radius: 4px;
+    outline: 0;
+}
+
+input:focus {
+    outline: #d5d5d5 solid 2px;
+}
+
+input[type=submit] {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #77b11c;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    cursor: pointer; 
+     -webkit-appearance: none;
+}
+
+input[type=submit]:hover {
+    background-color: #8dcd27;
+}
+
+input[type=submit]:disabled {
+    background-color: #c7c7c7;
+}
+
+input[type=submit]:focus {
+    outline: 0;
+}
+
+.center {
+    padding-top: 60px;
+    max-width: 750px;
+}
+
+#content {
+    background: #ffffff;
+}
+
+#bar {
+    text-align: center;
+    font-family: "Lato";
+    font-size: 18px;
+    line-height: 36px;
+    color: #5c5c5c;
+    background-color: #e8e8e8;
+}
