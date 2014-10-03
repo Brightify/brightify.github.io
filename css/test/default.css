@@ -2,6 +2,15 @@ h1 {
     text-align: left;
 }
 
+form {
+    margin: 40px 0px 40px 0px;
+}
+
+form input[type=submit] {
+    margin: 60px auto;
+    display: block;
+}
+
 input {
     font-family: "Lato";
     background-color: #e7e7e7;
@@ -41,6 +50,19 @@ input[type=submit]:disabled {
 
 input[type=submit]:focus {
     outline: 0;
+}
+
+table {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+td {
+    padding: 10px 22px;
+    vertical-align: middle;
+    font-family: "Lato";
+    font-size: 20px;
+    color: #504d4d;
 }
 
 .center {
