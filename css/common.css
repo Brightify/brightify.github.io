@@ -1,10 +1,7 @@
-head {
-    -webkit-transform: translate3d(0,0,0);
-}
-
 body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    -webkit-overflow-scrolling: touch;
 }
 
 h1, h2, h3 {
