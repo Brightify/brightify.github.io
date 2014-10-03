@@ -32,26 +32,28 @@
                 </p>
                 <form action="test_2.html" method="post">
                     <table>
-                        <tr>
-                            <td>First name</td>
-                            <td><input type="text" name="firstName"></td>
-                            <td rowspan="4" class="required">* all fields required</td>
-                        </tr>
-                        <tr>
-                            <td>Last name</td>
-                            <td><input type="text" name="lastName"></td>
-                        </tr>
-                        <tr>
-                            <td>Email</td>
-                            <td><input type="email" name="email"></td>
-                        </tr>
-                        <tr>
-                            <td>Location</td>
-                            <td><input type="text" name="location"></td>
-                        </tr>
-                        <tr class="requiredMobile">
-                            <td colspan="2">* all fields required</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>First name</td>
+                                <td><input class="smallInput" type="text" name="firstName"></td>
+                                <td rowspan="4" class="required">* all fields required</td>
+                            </tr>
+                            <tr>
+                                <td>Last name</td>
+                                <td><input class="smallInput" type="text" name="lastName"></td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td><input class="smallInput" type="email" name="email"></td>
+                            </tr>
+                            <tr>
+                                <td>Location</td>
+                                <td><input class="smallInput" type="text" name="location"></td>
+                            </tr>
+                            <tr class="requiredMobile">
+                                <td colspan="2">* all fields required</td>
+                            </tr>
+                        </tbody>
                     </table>
                     <input type="submit" value="next" disabled="disabled">
                 </form>

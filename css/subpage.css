@@ -1,5 +1,7 @@
 .center {
     max-width: 1515px;
+    padding: 0px 15px;
+    min-width: 500px;
 }
 
 #facebook, #gplus {

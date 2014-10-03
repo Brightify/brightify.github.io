@@ -1,3 +1,11 @@
+form {
+    margin: 0px;
+}
+
+form input[type=submit] {
+    margin: 0px;
+}
+
 #content {
     text-align: center;
 }

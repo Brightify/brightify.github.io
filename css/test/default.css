@@ -2,30 +2,63 @@ h1 {
     text-align: left;
 }
 
-form {
-    margin: 40px 0px 40px 0px;
-}
-
 form input[type=submit] {
     margin: 60px auto;
     display: block;
 }
 
-input {
+input, textarea {
     font-family: "Lato";
     background-color: #e7e7e7;
     font-size: 20px;
-    line-height: 40px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
     border: none;
     color: #504d4d;
     border-radius: 4px;
     outline: 0;
+    width: 400px;
 }
 
-input:focus {
+input:focus, textarea:focus {
     outline: #d5d5d5 solid 2px;
+}
+
+input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+    -webkit-appearance: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked {
+    background-image: url("../../img/test/checkbox.png");
+}
+
+input[type=checkbox]:hover {
+    background-color: #a5d798;
+}
+
+input[type=checkbox]:focus {
+    outline: 0px;
+}
+
+input[type=radio] {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+input[type=radio]:checked {
+    
+}
+
+input[type=radio]:hover {
+    
+}
+
+input[type=radio]:focus {
+    outline: 0px;
 }
 
 input[type=submit] {
@@ -33,10 +66,11 @@ input[type=submit] {
     font-size: 24px;
     color: #ffffff;
     background-color: #77b11c;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding: 0px 25px;
     border-radius: 20px;
     cursor: pointer; 
+    width: auto;
+    line-height: 40px;
      -webkit-appearance: none;
 }
 
@@ -49,12 +83,29 @@ input[type=submit]:disabled {
 }
 
 input[type=submit]:focus {
-    outline: 0;
+    outline: 0px;
+}
+
+textarea {
+   resize: none;
+   height: 260px;
+}
+
+pre {
+    font-family: Consolas;
+    font-size: 15px;
+    color: #3f3f3f;
+    background-color: #f8f8f8;
+    border-left: 20px solid #e8e8e8;
+    display: block;
+    padding: 20px;
+    max-width: 635px;
+    margin: 0px auto;
 }
 
 table {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: 40px auto 0px auto;
+    width: 100%;
 }
 
 td {
@@ -63,6 +114,70 @@ td {
     font-family: "Lato";
     font-size: 20px;
     color: #504d4d;
+    min-width: 200px;
+}
+
+tr td:nth-of-type(1) {
+    padding-left: 35px;
+}
+
+table .textareaDescription {
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+.line {
+    padding: 35px 0px !important;
+}
+
+.line:before {
+    content: "";
+    background-color: #e7e7e7;
+    height: 1px;
+    width: 100%;
+    display: block;
+}
+
+.smallTable thead td {
+    padding-left: 35px !important;
+    padding-bottom: 25px;
+}
+
+.smallTable td {
+    min-width: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 40px;
+}
+
+.smallTable td:nth-of-type(1) {
+    padding-left: 68px;
+    padding-right: 14px;
+}
+
+.smallTable td:nth-of-type(2) {
+    width: 100%;
+    padding-left: 0px;
+}
+
+.smallInput {
+    width: 214px;
+    padding: 8px 10px;
+}
+
+.smallTable .smallInput {
+    margin-left: 10px;
+}
+
+.smallText {
+    max-width: 695px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    color: #afafaf;
+    text-align: center;
 }
 
 .center {
@@ -81,4 +196,14 @@ td {
     line-height: 36px;
     color: #5c5c5c;
     background-color: #e8e8e8;
+    min-width: 530px;
+}
+
+@media (max-width: 999px) { 
+    input, textarea {
+        width: auto;
+    }   
+    td {
+        min-width: 0px;
+    }
 }

@@ -1,22 +1,26 @@
-.required, .requiredMobile td {
+table {
+    width: auto;
+}
+
+td {
+    min-width: 0px;
+}
+
+#content .required, .requiredMobile td {
     font-style: italic;
     color: #afafaf;
 }
 
-.requiredMobile {
+#content .requiredMobile {
     display: none;
 }
 
-.inputs {
-    width: 234px;
-}
-
 @media (max-width: 999px) { 
-    .required {
+    #content .required {
         display: none;
     }
     
-    .requiredMobile {
+    #content .requiredMobile {
         display: table-row;
         text-align: center;
     }
