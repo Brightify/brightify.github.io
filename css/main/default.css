@@ -62,7 +62,6 @@
     position: absolute;
     min-width: 100%;
     z-index: 1;
-    -webkit-transform: translate3d(0,0,1);
 }
 
 #content > div {

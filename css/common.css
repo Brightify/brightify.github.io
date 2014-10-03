@@ -1,3 +1,7 @@
+header {
+    -webkit-transform: translate3d(0,0,0);
+}
+
 body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -95,7 +99,6 @@ img {
 
 #language {
     position: absolute;
-    -webkit-transform: translate3d(0,0,100);
     z-index: 100;
     width: 94px;
     height: 35px;
