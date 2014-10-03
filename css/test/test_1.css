@@ -1,0 +1,48 @@
+.required {
+    font-style: italic;
+    color: #afafaf;
+}
+
+form {
+    margin-top: 40px;
+}
+
+form input[type=submit] {
+    margin: 60px auto;
+    display: block;
+}
+
+.table {
+    display: table;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.row {
+    display: table-row;
+}
+
+.row div {
+    padding: 10px 22px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.description {
+    font-family: "Lato";
+    font-size: 20px;
+    color: #504d4d;
+}
+
+.wrapper, .required {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media (max-width: 999px) { 
+    .required {
+        display: block;
+        text-align: center;
+    }
+}
