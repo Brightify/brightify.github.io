@@ -98,7 +98,6 @@ img {
     z-index: 100;
     width: 94px;
     height: 35px;
-    -webkit-transform: translate3d(0, 0, 0);
 }
 
 #language div {
