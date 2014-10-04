@@ -210,16 +210,19 @@ table .textareaDescription {
 
 #content {
     background: #ffffff;
+    margin-top: 140px;
 }
 
 #bar {
+    position: fixed;
+    width: 100%;
+    top: 100px;
     text-align: center;
     font-family: "Lato";
     font-size: 18px;
     line-height: 40px;
     color: #5c5c5c;
     background-color: #e8e8e8;
-    min-width: 530px;
 }
 
 #timer {
