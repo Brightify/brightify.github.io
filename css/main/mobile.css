@@ -233,23 +233,17 @@ h3 {
 #getInTouch .contacts {
     position: relative;
     margin: 10px 75px 45px 75px;
-    width: 350px;
-    height: 100px;
     display: block;
+    display: inline-block;
 }
 
 #getInTouch .contacts a {
     display: block;
-    width: 350px;
-    position: absolute;
-}
-
-#getInTouch .contacts a:nth-of-type(1) {
-    top: 0px;
-}
-
-#getInTouch .contacts a:nth-of-type(2) {
-    top: 60px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #getInTouch .socials a {
