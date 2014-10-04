@@ -216,10 +216,20 @@ table .textareaDescription {
     text-align: center;
     font-family: "Lato";
     font-size: 18px;
-    line-height: 36px;
+    line-height: 40px;
     color: #5c5c5c;
     background-color: #e8e8e8;
     min-width: 530px;
+}
+
+#timer {
+    margin-left: 15px;
+    background-color: #d54f4f;
+    color: #ffffff;
+    padding: 0px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 30px;
 }
 
 @media (max-width: 999px) { 
