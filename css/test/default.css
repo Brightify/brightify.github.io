@@ -27,16 +27,28 @@ input[type=checkbox] {
     width: 25px;
     height: 25px;
     -webkit-appearance: none;
-    border-radius: 2px;
     cursor: pointer;
+    background-image: url("../../img/test/checkbox/default.svg");
 }
 
 input[type=checkbox]:checked {
-    background-image: url("../../img/test/checkbox.png");
+    background-image: url("../../img/test/checkbox/checked.svg");
 }
 
 input[type=checkbox]:hover {
-    background-color: #a5d798;
+    background-image: url("../../img/test/checkbox/hover.svg");
+}
+
+input[type=checkbox]:active {
+    background-image: url("../../img/test/checkbox/pressed.svg");
+}
+
+input[type=checkbox]:checked:hover {
+    background-image: url("../../img/test/checkbox/checked_hover.svg");
+}
+
+input[type=checkbox]:checked:active {
+    background-image: url("../../img/test/checkbox/checked_pressed.svg");
 }
 
 input[type=checkbox]:focus {
@@ -46,15 +58,26 @@ input[type=checkbox]:focus {
 input[type=radio] {
     width: 25px;
     height: 25px;
+    background-color: transparent;
+    -webkit-appearance: none;
     cursor: pointer;
+    background-image: url("../../img/test/radio/default.svg");
 }
 
 input[type=radio]:checked {
-    
+    background-image: url("../../img/test/radio/checked.svg");
 }
 
 input[type=radio]:hover {
-    
+    background-image: url("../../img/test/radio/hover.svg");
+}
+
+input[type=radio]:checked:hover {
+    background-image: url("../../img/test/radio/checked.svg");
+}
+
+input[type=radio]:active {
+    background-image: url("../../img/test/radio/pressed.svg");
 }
 
 input[type=radio]:focus {
