@@ -19,8 +19,6 @@ h2 {
 }
 
 #content #persons {
-    right: 0px;
-    left: 0px;
     margin: 90px auto 115px auto;
     overflow: hidden;
 }

@@ -4,8 +4,6 @@
 
 #footer .convinced {
     width: 450px;
-    line-height: normal;
-    display: block;
     margin: 12px auto 0px auto;
 }
 
@@ -13,20 +11,18 @@
     width: 300px;
 }
 
+#content .segment {
+    margin-bottom: 150px;
+}
+
 #content .segment p span {
     font-weight: bold;
     font-style: italic;
 }
 
-#content .segment {
-    position: relative;
-    margin-bottom: 150px;
-}
-
 #content .segment img, #content .segment .description {
     display: inline-block;
     vertical-align: top;
-    position: relative;
 }
 
 #content .segment img {
@@ -68,8 +64,6 @@
 #content .path {
     position: absolute;
     display: none;
-    width: 300px;
-    height: 150px;
 }
 
 #content .path div { 
@@ -77,17 +71,17 @@
 }
 
 #content .path .leftPoint {
-    width: 32px;
-    height: 32px;
-    border-radius: 16px;
     left: -16px;
 }
 
 #content .path .rightPoint {
+    right: -16px;
+}
+
+#content .path > div:nth-of-type(1), #content .path > div:nth-of-type(2) {
     width: 32px;
     height: 32px;
     border-radius: 16px;
-    right: -16px;
 }
 
 #content .path > div:nth-of-type(1) {
@@ -140,17 +134,12 @@
     
     #content .segment img, #content .segment .description {
         display: block;
-    }
-    
-    #content .segment img {
         margin-left: auto;
         margin-right: auto;
     }
-    
+        
     #content .segment .description {
         margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
     }
     
     #content #discovery .description {
