@@ -1,6 +1,5 @@
 #content .text {
     text-align: center;
-    display: inline-block;
 }
 
 #content p span {
@@ -10,7 +9,6 @@
 
 #content #bubbles {
     position: relative;
-    text-align: left;
 }
 
 #content #bubbles div {
@@ -54,7 +52,6 @@
 }
 
 #colors {
-    overflow: hidden;
     color: #ffffff;
 }
 
