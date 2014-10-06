@@ -1,0 +1,29 @@
+h1, #content p {
+    margin-left: 115px;
+    margin-right: 115px;
+}
+
+h1 {
+    margin-top: 80px;
+}
+
+#content #bubbles {
+    margin: 70px auto 115px auto;
+    width: 867px;
+    height: 272px;
+}
+
+#content #bubbles #orangeBubble {
+    left: 455px;
+    top: 0px;
+}
+
+#content #bubbles #magentaBubble {
+    left: 0px;
+    top: 40px;
+}
+
+#colors {
+    margin: 60px auto 0px auto;
+    width: 750px;
+}
