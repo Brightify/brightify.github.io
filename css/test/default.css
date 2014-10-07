@@ -150,14 +150,13 @@ table .textareaDescription {
 }
 
 .line {
-    padding: 35px 0px !important;
+    padding: 35px 0px;
 }
 
 .line:before {
     content: "";
     background-color: #e7e7e7;
     height: 1px;
-    width: 100%;
     display: block;
 }
 

@@ -130,6 +130,7 @@
         width: auto !important;
         margin-left: 0px !important;
         margin-right: 0px !important;
+        text-align: center;
     }
     
     #content .segment img, #content .segment .description {
