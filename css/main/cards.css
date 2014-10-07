@@ -3,11 +3,6 @@
     left: 0px;
 }
 
-#personalWebs {
-    top: 590px; 
-    left: 0px;
-}
-
 #dotekomanie {
     top: 270px; 
     left: 160px;
@@ -34,21 +29,6 @@
 }
 
 #netMonster {
-    top: 140px; 
+    top: 370px; 
     left: 640px;
-}
-
-#simplyPong {
-    top: 300px; 
-    left: 640px;
-}
-
-#torch {
-    top: 460px; 
-    left: 640px;
-}
-
-#pravonadlani {
-    top: 380px; 
-    left: 800px;
 }
