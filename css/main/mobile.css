@@ -31,6 +31,10 @@ h3 {
     height: 0px;
 }
 
+#content > div {
+    padding: 0px;
+}
+
 #language {
     height: 40px;
 }
