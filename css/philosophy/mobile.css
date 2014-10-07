@@ -44,13 +44,19 @@ h1 {
     min-width: 530px;
 }
 
-#colors .colorWrapper div {
+#colors .colorWrapper > div {
     width: 100%;
     min-width: 530px;
+    display: table;
+}
+
+#colors .colorWrapper .wrapper {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #colors h2 {
-    margin: 24px auto 0px auto;
+    margin: 0px auto;
     width: 210px;
 }
 

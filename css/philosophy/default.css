@@ -59,7 +59,7 @@
     overflow: hidden;
 }
 
-#colors .colorWrapper div {
+#colors .colorWrapper > div {
     width: 250px;
     height: 270px;
     float: left;
