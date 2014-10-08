@@ -95,6 +95,7 @@ img {
 }
 
 #language {
+    display: none;
     position: absolute;
     z-index: 100;
     width: 94px;
