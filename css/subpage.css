@@ -98,6 +98,7 @@
     text-align: center;
     min-height: 155px;
     overflow: hidden;
+    min-width: 530px;
 }
 
 #footer div {

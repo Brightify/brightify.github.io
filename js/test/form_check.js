@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $("input").keyup(function() {
         var filled = true;
-        $(".inputs input").each(function() {
+        $(".requiredInput").each(function() {
             if ($(this).val() === "") {
                 filled = false;
             }
