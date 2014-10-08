@@ -96,6 +96,11 @@
     overflow: hidden;
 }
 
+#whatWeDo span {
+    font-weight: bold;
+    font-style: italic;
+}
+
 #whatWeDo #background {
     position: absolute;
     height: 100%;
