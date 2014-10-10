@@ -192,7 +192,7 @@
 }
 
 #getInTouch .contacts a {
-    font-family: "Lato";
+    font-family: "Source Sans Pro";
     font-size: 30px;
     line-height: normal;
     color: #000000;
@@ -203,7 +203,7 @@
 }
 
 #joinOurTeam #slashes {
-    font-family: "Lato";
+    font-family: "Source Sans Pro";
     font-weight: bold;
     color: #ffffff;
 }
