@@ -1,0 +1,56 @@
+#content .underDevelopment {
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+
+#content .underDevelopment p {
+    max-width: 800px;
+}
+
+#content .underDevelopment form {
+    margin-top: 30px;
+}
+
+#content .underDevelopment input {
+    font-family: "Source Sans Pro";
+    background-color: #e7e7e7;
+    font-size: 20px;
+    padding: 0px 10px;
+    line-height: 40px;
+    border: none;
+    color: #504d4d;
+    border-radius: 4px;
+    outline: 0;
+    width: 250px;
+    text-align: center;
+}
+
+#content .underDevelopment input:focus {
+    outline: #d5d5d5 solid 2px;
+}
+
+#content .underDevelopment input[type=submit] {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #77b11c;
+    padding: 0px 30px;
+    border-radius: 20px;
+    cursor: pointer; 
+    width: auto;
+    line-height: 40px;
+     -webkit-appearance: none;
+     margin-left: 20px;
+}
+
+#content .underDevelopment input[type=submit]:hover {
+    background-color: #8dcd27;
+}
+
+#content .underDevelopment input[type=submit]:disabled {
+    background-color: #c7c7c7;
+}
+
+#content .underDevelopment input[type=submit]:focus {
+    outline: 0px;
+}
