@@ -1,35 +1,28 @@
 $(document).ready(function() {
-    screensWidth = $("#content .screens").width();
     onWidthChange();
     $("#content .platform div").click(function() {
         setScreensVisible($.inArray(this, $("#content .platform div")), true);
     });
-    $("#content .screens").resize(onWidthChange);
 });
 
-$(window).resize(function() {
-    var currentWidth = $("#content .screens").width();
-    if (screensWidth !== currentWidth) {
-        onWidthChange();
-        screensWidth = currentWidth;
-    }
-});
+$(window).resize(onWidthChange);
 
 function onWidthChange() {
-    var width = 0;
-    $("#content .screens").each(function() {
-        width += $(this).outerWidth(true);
-    });
+    var screenWidth = getScreenWidth();
+    var width = $("#content .screens").size() * screenWidth;
     $("#content .allScreens").width(width);
+    var margin = screenWidth - $("#content .screens").width();
+    $("#content .screens").css("margin-right", margin);
     setScreensVisible(getSelectedIndex(), false);
 }
 
 function setScreensVisible(index, animate) {
+    var screenWidth = getScreenWidth();
     $("#content .platform div").removeClass("selected");
     $($("#content .platform div")[index]).addClass("selected");
-    var left = $("#content .screens").outerWidth(true) * index * -1 + 70;
+    var left = screenWidth * index * -1 + (screenWidth - $("#content .screens").width()) / 2;
     if (animate) {
-        $("#content .allScreens").animate({left: left}, 400, "linear");
+        $("#content .allScreens").animate({left: left});
     } else {
         $("#content .allScreens").css("left", left);
     }
@@ -44,4 +37,8 @@ function getSelectedIndex() {
        } 
     });
     return result;
+}
+
+function getScreenWidth() {
+    return Math.max(530, $(window).width());
 }
