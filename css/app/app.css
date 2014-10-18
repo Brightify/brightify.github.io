@@ -40,26 +40,43 @@ h1 {
     margin-right: 80px;
 }
 
-#content #links {
+#links {
     margin: 60px 100px 70px 100px;
 }
 
-#content #links a {
+#links a {
     height: 67px;
     width: 195px;
+    background-size: 195px 67px;
     margin: 6px 6px;
 }
 
-#content #links a:hover {
+#links a:hover {
     opacity: 0.9;
 }
 
-#content #links .appStore {
-    background-image: url("../../img/store/apple.png");
+#links .appStore {
+    background-image: url("../../img/app/store/apple.png");
 }
 
-#content #links .googlePlay {
-    background-image: url("../../img/store/google.png");
+#links .googlePlay {
+    background-image: url("../../img/app/store/google.png");
+}
+
+#links .windowsStore {
+    background-image: url("../../img/app/store/windows.png");
+}
+
+#links .appStore_cz {
+    background-image: url("../../img/app/store/apple_cz.png");
+}
+
+#links .googlePlay_cz {
+    background-image: url("../../img/app/store/google_cz.png");
+}
+
+#links .windowsStore_cz {
+    background-image: url("../../img/app/store/windows_cz.png");
 }
 
 @media (max-width: 999px) {

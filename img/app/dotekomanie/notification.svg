@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="281" height="200" viewBox="0 0 281 200">
+  <defs>
+    <style>
+
+      .cls-3 {
+        fill: #f8f8f8;
+        filter: url(#gradient-overlay-1);
+      }
+
+      .cls-4 {
+        fill: #f8f8f8;
+        stroke: #ffffff;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+        filter: url(#gradient-overlay-2);
+      }
+
+      .cls-5 {
+        fill: #161616;
+      }
+
+      .cls-6 {
+        fill: #000000;
+        opacity: 0.35;
+      }
+
+      .cls-11 {
+        fill: #161616;
+        opacity: 0.35;
+      }
+
+      .cls-12 {
+        fill: #ff0000;
+      }
+
+      .cls-13 {
+        fill: #ffffff;
+      }
+    </style>
+
+    <filter id="gradient-overlay-1" filterUnits="userSpaceOnUse">
+      <feImage x="0" y="0" preserveAspectRatio="none" width="257" height="176" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjU3IiBoZWlnaHQ9IjE3NiI+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjE1NS40MDQiIHkxPSIxNzYiIHgyPSIxMDEuNTk2IiB5Mj0iMCI+CiAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZGFiZWY3Ii8+CiAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNjhlMmYwIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiLz48L3N2Zz4="/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+    <filter id="gradient-overlay-2" filterUnits="userSpaceOnUse">
+      <feImage x="17" y="17" preserveAspectRatio="none" width="257" height="176" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjU3IiBoZWlnaHQ9IjE3NiI+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjE1NS40MDQiIHkxPSIxNzYiIHgyPSIxMDEuNTk2IiB5Mj0iMCI+CiAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZGFiZWY3Ii8+CiAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNjhlMmYwIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiLz48L3N2Zz4="/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+  </defs>
+  <g id="notifikacesvg">
+    <rect id="rect-1" class="cls-3" width="257" height="176" rx="5" ry="5"/>
+    <g id="zaoblený-obdélník-4" style="fill: #f8f8f8; filter: url(#gradient-overlay-2);">
+      <rect id="rect-2" class="cls-4" x="17" y="17" width="257" height="176" rx="5" ry="5" style="stroke: inherit; filter: none; fill: inherit;"/>
+    </g>
+    <use xlink:href="#rect-2" style="stroke: #ffffff; fill: none; filter: none;"/>
+    <rect id="rect-3" class="cls-5" x="37" y="55" width="144" height="16" rx="8" ry="8"/>
+    <rect id="rect-4" class="cls-6" x="37" y="90" width="121" height="10" rx="5" ry="5"/>
+    <rect id="rect-5" class="cls-6" x="37" y="104" width="190" height="10" rx="5" ry="5"/>
+    <rect id="rect-6" class="cls-6" x="37" y="118" width="180" height="10" rx="5" ry="5"/>
+    <rect id="rect-7" class="cls-6" x="37" y="132" width="203" height="10" rx="5" ry="5"/>
+    <rect id="rect-8" class="cls-6" x="37" y="146" width="180" height="10" rx="5" ry="5"/>
+    <rect id="rect-9" class="cls-11" x="37" y="160" width="72" height="10" rx="5" ry="5"/>
+    <circle id="circle-1" class="cls-12" cx="223" cy="65" r="31"/>
+    <path d="M225.029,50.518 C225.029,50.518 223.265,50.518 223.265,50.518 C223.265,50.518 215.124,56.608 215.124,56.608 C215.124,56.608 216.292,58.064 216.292,58.064 C220.298,54.934 222.411,53.273 222.629,53.081 C222.848,52.890 223.060,52.691 223.265,52.486 C223.101,54.619 223.019,56.677 223.019,58.659 C223.019,58.659 223.019,80.500 223.019,80.500 C223.019,80.500 225.029,80.500 225.029,80.500 C225.029,80.500 225.029,50.518 225.029,50.518 Z" id="path-1" class="cls-13" fill-rule="evenodd"/>
+  </g>
+</svg>

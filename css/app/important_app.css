@@ -1,0 +1,166 @@
+.center {
+    text-align: center;
+}
+
+#content p {
+    margin-top: 90px;
+}
+
+#notification, #tablet, #more, #functions, #links {
+    min-width: 530px;
+    z-index: 0;
+    position: relative;
+}
+
+#notification img {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    width: 277px;
+    height: 196px;
+}
+
+#notification p, #more p {
+    max-width: 950px;
+    width: 90%;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+#tablet {
+    background-color: #f8f8f8;
+}
+
+#tablet .center {
+    text-align: left;
+}
+
+#more {
+    background: -moz-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f8f8f8));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f8f8f8 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#f8f8f8 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#f8f8f8 100%);
+}
+
+#more img {
+    width: 234px;
+    height: 241px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+#functions .center {
+    padding-top: 130px;
+    padding-bottom: 90px;
+}
+
+#functions .function {
+    position: relative;
+    width: 380px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 45px;
+}
+
+#functions img {
+    margin-bottom: 25px;
+    width: 200px;
+    height: 114px;
+}
+
+#links {
+    background-color: #f8f8f8;
+    margin: 0px;
+}
+#links .center {
+    padding-top: 70px;
+}
+
+#links a {
+    margin-top: 0px;
+}
+
+#links .pageLink, #links .pageLink_cz {
+    width: 283px;
+    height: 100px;
+    display: block;
+    background-size: 283px 100px;
+    margin: 35px auto 70px auto;
+}
+
+#links .pageLink {
+    background-image: url("../../img/app/dotekomanie/dotekomanie.png");
+}
+
+#links .pageLink_cz {
+    background-image: url("../../img/app/dotekomanie/dotekomanie_cz.png");
+}
+
+@media (max-width: 1649px) and (min-width: 1000px) {
+    #functions .center {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #functions .function {
+        width: 680px;
+        display: block;
+        margin: 60px auto;
+        text-align: left;
+    }
+    
+    #functions .function > * {
+        vertical-align: middle;
+        display: inline-block;
+        margin: 0px;
+    }
+    
+    #functions .function div {
+        width: 420px;
+        margin-left: 55px;
+    }
+    
+    #functions .function h2 {
+        margin-top: -10px;
+    }
+    
+    #functions .function p {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 999px) {
+    #content p {
+        margin-top: 70px;
+    }
+    
+    #functions .center {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    
+    #functions .function {
+        margin: 50px auto;
+        display: block;
+        width: 80%;
+        min-width: 380px;
+    }
+    
+    #functions img {
+        margin-bottom: 40px;
+    }
+
+    #links .center {
+        width: 283px;
+        min-width: 283px;
+    }
+    
+    #links a {
+        margin-top: 20px;
+    }
+    
+    #links .pageLink {
+        margin-top: 50px;
+    }
+}

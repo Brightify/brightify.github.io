@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="235" height="242" viewBox="0 0 235 242">
+  <defs>
+    <style>
+
+      .cls-3 {
+        fill: #707070;
+        opacity: 0.17;
+      }
+
+      .cls-4 {
+        fill: #707070;
+        filter: url(#gradient-overlay-1);
+      }
+
+      .cls-5 {
+        fill: #ffffff;
+      }
+    </style>
+
+    <filter id="gradient-overlay-1" filterUnits="userSpaceOnUse">
+      <feImage x="-0.3125" y="-0.40625" preserveAspectRatio="none" width="234.625" height="234.59375" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjM0LjYyNSIgaGVpZ2h0PSIyMzQuNTkzNzUiPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxNjcuMTAzIiB5MT0iMjM0LjU5NCIgeDI9IjY3LjUyMyIgeTI9IjAiPgogIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzJkYTI4YiIvPgogIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA5YzI1NiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIi8+PC9zdmc+"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+  </defs>
+  <g id="plussvg">
+    <ellipse id="ellipse-1" class="cls-3" cx="117" cy="234" rx="83" ry="7"/>
+    <circle id="circle-1" class="cls-4" cx="117" cy="117" r="117"/>
+    <rect id="rect-1" class="cls-5" x="112" y="42" width="8" height="148" rx="4" ry="4"/>
+    <rect id="rect-2" class="cls-5" x="42" y="112" width="148" height="8" rx="4" ry="4"/>
+  </g>
+</svg>
