@@ -31,7 +31,7 @@ function setScreensVisible(index, animate) {
     var left = windowWidth * index * -1 + (windowWidth - screensWidth) / 2;
     left -= screensOffset;
     if (animate) {
-        var duration = Math.abs(Math.ceil(left / windowWidth)) * 400;
+        var duration = Math.abs(Math.ceil(left / windowWidth)) * 800;
         animateScreens(left, duration);
     } else {
         moveScreens(left);
@@ -55,15 +55,15 @@ function getWindowWidth() {
 }
 
 function animateScreens(left, duration) {
-    var interval = 50;
+    var delay = 50;
     if (left > 0) {
-        animateOneScreen(left, 3, duration);
-        setTimeout(function() {animateOneScreen(left, 2, duration);}, interval);
-        setTimeout(function() {animateOneScreen(left, 1, duration);}, interval * 2);
+        animateOneScreen(left, getPositionOfScreen(3, 1), duration);
+        animateOneScreen(left, getPositionOfScreen(2, 2), duration + delay);
+        animateOneScreen(left, getPositionOfScreen(1, 3), duration + delay * 2);
     } else {
-        animateOneScreen(left, 1, duration);
-        setTimeout(function() {animateOneScreen(left, 2, duration);}, interval);
-        setTimeout(function() {animateOneScreen(left, 3, duration);}, interval * 2);
+        animateOneScreen(left, getPositionOfScreen(1, 1), duration);
+        animateOneScreen(left, getPositionOfScreen(2, 2), duration + delay);
+        animateOneScreen(left, getPositionOfScreen(3, 3), duration + delay * 2);
     }
 }
 
@@ -73,4 +73,23 @@ function animateOneScreen(left, index, duration) {
 
 function moveScreens(left) {
     $("#content .screens *").css("left", "+=" + left + "px");
+}
+
+function getPositionOfScreen(index, defaultValue) {
+    var firstArray = getLeftArray();
+    if(firstArray[0] === firstArray[1] && firstArray[1] === firstArray[2]) {
+        return defaultValue;
+    }
+    var secondArray = $.merge([], firstArray);
+    firstArray.sort(function(a, b){return a-b;});
+    return $.inArray(firstArray[index - 1], secondArray) + 1;
+}
+
+function getLeftArray() {
+    var screens = $("#content .screens img");
+    return [
+        parseFloat($(screens[0]).css("left")),
+        parseFloat($(screens[1]).css("left")),
+        parseFloat($(screens[2]).css("left"))
+    ];
 }
