@@ -2,6 +2,10 @@ h1 {
     text-align: left;
 }
 
+form {
+    margin: 0px;
+}
+
 form input[type=submit] {
     margin: 60px auto;
     display: block;
@@ -202,14 +206,40 @@ table .textareaDescription {
     text-align: center;
 }
 
-.center {
+#content {
+    background: #ffffff;
+    margin-top: 140px;
+}
+
+#content .desktop {
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+    text-align: left;
+}
+
+#content .mobile {
+    display: none;
+    width: 380px;
+    text-align: left;
+}
+
+#content .center {
     padding-top: 60px;
     max-width: 750px;
 }
 
-#content {
-    background: #ffffff;
-    margin-top: 140px;
+#content .center img {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#content .center img {
+    margin-right: 40px;
+}
+
+#content .center div p {
+    margin-top: 25px;
 }
 
 #bar {
@@ -234,11 +264,82 @@ table .textareaDescription {
     line-height: 30px;
 }
 
+#introduction #content input[type=submit] {
+    margin: 0px;
+}
+
+#introduction #content .center {
+    text-align: center;
+    padding-top: 130px;
+    max-width: 1515px;
+}
+
+#firstPage table {
+    width: auto;
+}
+
+#firstPage td {
+    min-width: 0px;
+}
+
+#firstPage #content .required, #firstPage #content .requiredMobile td {
+    font-style: italic;
+    color: #afafaf;
+}
+
+#firstPage #content .requiredMobile {
+    display: none;
+}
+
 @media (max-width: 999px) { 
     input, textarea {
         width: auto;
     }   
     td {
         min-width: 0px;
+    }
+
+    #content .center {
+        padding-top: 50px;
+    }
+    
+    #content .center img {
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+  
+    #content .center h1 {
+        font-size: 36px;
+    }
+
+    #content .desktop {
+        display: none;
+    }
+
+    #content .mobile {
+        display: inline-block;
+    }
+    
+    #content .mobile input[type=text] {
+        margin-top: 12px;
+        margin-bottom: 15px;
+    }
+    
+    #content .mobile form:nth-of-type(2) {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    #content .mobile form:nth-of-type(2) input {
+        background-color: #aeb89d;
+    }
+
+    #firstPage #content .required {
+        display: none;
+    }
+    
+    #firstPage #content .requiredMobile {
+        display: table-row;
+        text-align: center;
     }
 }
