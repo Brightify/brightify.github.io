@@ -19,8 +19,18 @@
     color: #656565;
     line-height: 50px;
     margin: 5px 0px;
-    padding: 0px 35px;
     cursor: pointer;
+}
+#content .platform .android {
+    width: 155px;
+}
+
+#content .platform .ios {
+    width: 99px;
+}
+
+#content .platform .windows {
+    width: 231px;
 }
 
 #content .platform div:hover {
