@@ -11,6 +11,7 @@ $(document).ready(function() {
 var Card = function(index) {
     this._index = index;
     this._baseLeft = this._getLeft();
+    this._getElements().css("left", "+=0");
     this._running = 0;
     this._windowWidth = getWindowWidth();
 };
