@@ -32,6 +32,42 @@
 
 #tablet .center {
     text-align: left;
+    position: static;
+}
+
+#tablet .screenshot {
+    position: absolute;
+    width: 880px;
+    height: 495px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    max-width: 50%;
+    background-image: url("../../img/app/dotekomanie/tablet_screenshot.png");
+    background-repeat: no-repeat;
+    background-size: 880px 495px;
+    -webkit-box-shadow: 0px 0px 98px 13px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 98px 13px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 98px 13px rgba(0, 0, 0, 0.2);
+}
+
+#tablet h2, #tablet p {
+    margin-left: 40px;    
+}
+
+#tablet h2 {
+    margin-top: 300px;
+    width: 25%;
+}
+
+#tablet p {
+    max-width: 630px;
+    width: 40%;
+}
+
+#tablet p:last-of-type {
+    margin-bottom: 300px;
 }
 
 #more {
@@ -132,6 +168,43 @@
 @media (max-width: 999px) {
     #content p {
         margin-top: 70px;
+    }
+    
+    #tablet .center {
+        text-align: center;
+        padding: 0px;
+    }
+    
+    #tablet .center * {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #tablet .screenshot {
+        top: auto;
+        right: auto;
+        bottom: auto;
+        max-width: 100%;
+        background-position-x: center;
+    }
+    
+    #tablet h2 {
+        width: 240px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+    
+    #tablet p {
+        width: 390px;
+    }
+    
+    #tablet p:first-of-type {
+        margin-top: 65px;
+    }
+    
+    #tablet p:last-of-type {
+        margin-bottom: 80px;
     }
     
     #functions .center {
