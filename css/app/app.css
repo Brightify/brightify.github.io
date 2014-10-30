@@ -95,3 +95,10 @@ h1 {
         margin-right: 40px;
     }   
 }
+
+
+@media (max-height: 499px) {
+    #bar {
+        margin-top: 50px;
+    }
+}

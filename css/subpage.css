@@ -161,3 +161,28 @@
         display: block;
     }
 }
+
+@media (max-height: 499px) {
+    #header {
+        height: 50px;
+    }
+    
+    #header > a {
+        height: 30px;
+    }
+    
+    #header > a div:nth-of-type(1) {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    
+    #header > img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    #content {
+        margin-top: 50px;
+    }
+}
