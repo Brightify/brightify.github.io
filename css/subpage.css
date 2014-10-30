@@ -169,13 +169,13 @@
     }
     
     #header > a {
-        height: 29px;
+        height: 30px;
     }
     
     #header > a div:nth-of-type(1) {
         width: 29px;
         height: 29px;
-        line-height: 28px;
+        line-height: 29px;
     }
     
     #header > img {
