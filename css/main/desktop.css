@@ -124,6 +124,14 @@ h3 {
     display: none;
 }
 
+#jmkn .center > *  {
+    text-align: left;
+}
+
+#jmkn img {
+    margin-right: 20px;
+}
+
 #youCanHaveItToo .center {
     max-width: 1070px;
     background-position: right center;

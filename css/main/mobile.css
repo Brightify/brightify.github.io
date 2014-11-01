@@ -198,6 +198,15 @@ h3 {
     display: none;
 }
 
+#jmkn a {
+    background-color: #3aa8d2;
+    color: #ffffff;
+}
+
+#jmkn h2 {
+    margin: 20px 0px;
+}
+
 #youCanHaveItToo .center {
     background-position: center 235px;
 }

@@ -1,0 +1,109 @@
+h1 {
+    color: #393939;
+    margin-top: 90px;
+}
+
+h2 {
+    color: #393939;
+    margin-top: 80px;
+}
+
+#content {
+    text-align: center;
+}
+
+#content p {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#content form {
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+#content a {
+    width: auto;
+    margin: 10px 0px;
+    font-size: 24px;
+    color: #393939;
+}
+
+#content a:hover {
+    opacity: 0.9;
+}
+
+#content img {
+    width: 100%;
+}
+
+#content .center img {
+    width: 180px;
+    height: 180px;
+}
+
+#content .center:first-of-type p {
+    margin-bottom: 80px;
+}
+
+#content input {
+    font-family: "Source Sans Pro";
+    background-color: #e7e7e7;
+    font-size: 20px;
+    padding: 0px 10px;
+    line-height: 40px;
+    border: none;
+    color: #504d4d;
+    border-radius: 4px;
+    outline: 0;
+    width: 250px;
+    text-align: center;
+}
+
+#content input:focus {
+    outline: #d5d5d5 solid 2px;
+}
+
+#content input[type=submit] {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #77b11c;
+    padding: 0px 30px;
+    border-radius: 20px;
+    cursor: pointer; 
+    width: auto;
+    line-height: 40px;
+     -webkit-appearance: none;
+     margin-left: 20px;
+}
+
+#content input[type=submit]:hover {
+    background-color: #8dcd27;
+}
+
+#content input[type=submit]:disabled {
+    background-color: #c7c7c7;
+}
+
+#content input[type=submit]:focus {
+    outline: 0px;
+}
+
+@media (max-width: 999px) { 
+    h1, h2 {
+        font-size: 36px;
+    }
+    
+    #content p {
+        max-width: 360px;
+    }
+    
+    #content input {
+        display: block;
+        margin: 30px auto !important;
+    }
+
+}

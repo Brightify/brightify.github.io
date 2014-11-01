@@ -163,6 +163,34 @@
     box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.12);
 }
 
+#jmkn {
+    background-color: #e9e9e9;
+}
+
+#jmkn .center {
+    padding: 50px 15px;
+    text-align: center;
+}
+
+#jmkn .center > *  {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#jmkn img {
+    width: 70px;
+    height: 70px;
+}
+
+#jmkn h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#jmkn a {
+    color: #393939;
+}
+
 #youCanHaveItToo {
     background-color: #3fafc7;
 }
