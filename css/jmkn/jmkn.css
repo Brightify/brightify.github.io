@@ -35,8 +35,12 @@ h2 {
     opacity: 0.9;
 }
 
-#content img {
+#content .label {
     width: 100%;
+}
+
+#content .hidden {
+    display: none;
 }
 
 #content .center img {
