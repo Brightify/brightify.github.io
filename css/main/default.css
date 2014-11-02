@@ -128,7 +128,13 @@
 }
 
 #whyAndHow {
-    background-color: #d62942;
+    background: #db2939;
+    background: -moz-linear-gradient(-45deg, #db2939 0%, #d62657 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#db2939), color-stop(100%,#d62657));
+    background: -webkit-linear-gradient(-45deg, #db2939 0%,#d62657 100%);
+    background: -o-linear-gradient(-45deg, #db2939 0%,#d62657 100%);
+    background: -ms-linear-gradient(-45deg, #db2939 0%,#d62657 100%);
+    background: linear-gradient(135deg, #db2939 0%,#d62657 100%);
 }
 
 #whyAndHow .center {
