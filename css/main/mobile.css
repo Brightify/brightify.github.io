@@ -45,27 +45,20 @@ h3 {
 }   
 
 #whatWeDo .center {
-    min-height: 1060px;
-}
-
-#whatWeDo #background {
-    max-width: 646px;
-}
-
-#whatWeDo #background #centeredDiv div {
-    max-width: 646px;
-    background-image: url("../../img/main/what_we_do_mobile.png");
-    background-size: 646px 824px;
-    background-position: center 240px;
+    background-size: 495px 359px;
+    background-position: center 205px;
 }
 
 #whatWeDo h2 {
     margin-left: 75px;
+    margin-top: 75px;
+    margin-bottom: 480px;
 }
 
 #whatWeDo p {
     max-width: 350px;
     margin-left: 75px;
+    margin-bottom: 60px;
 }
 
 #whatWeDo a {
@@ -208,22 +201,19 @@ h3 {
 }
 
 #youCanHaveItToo .center {
-    background-position: center 235px;
+    background-size: 495px 929px;
 }
 
 #youCanHaveItToo h2, #youCanHaveItToo p {
-    margin-left: 75px;
-    margin-right: 75px;
+    width: 320px;
 }
 
 #youCanHaveItToo h2 {
-    margin-top: 75px;
-    margin-bottom: 480px;
+    margin-top: 210px;
 }
 
 #youCanHaveItToo a {
-    margin-bottom: 60px;
-    color: #3fafc7;
+    color: #000000;
     background-color: #ffffff;
 }
 

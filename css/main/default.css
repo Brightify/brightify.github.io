@@ -96,31 +96,14 @@
     overflow: hidden;
 }
 
+#whatWeDo .center {
+    background-image: url("../../img/main/devices.svg");
+    background-repeat: no-repeat;
+}
+
 #whatWeDo span {
     font-weight: bold;
     font-style: italic;
-}
-
-#whatWeDo #background {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 50%;
-}
-
-#whatWeDo #background #centeredDiv {
-    position: relative;
-    left: -50%;
-    height: 100%;
-    background-color: transparent;
-}
-
-#whatWeDo #background #centeredDiv div {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    right: 0px;
-    background-repeat: no-repeat;
 }
 
 #whatWeDo h2 {
@@ -202,14 +185,29 @@
 }
 
 #youCanHaveItToo .center {
-    background-image: url("../../img/main/devices.png");
-    background-size: 495px 359px;
+    background-image: url("../../img/main/nexus.svg");
+    background-size: 700px 1314px;
     background-repeat: no-repeat;
+    background-position: center 25px;
 }
 
 #youCanHaveItToo h2, #youCanHaveItToo p {
-    width: 350px;
+    text-align: center;
     color: #ffffff;
+}
+
+#youCanHaveItToo h2 {
+    margin: 300px auto 50px auto;
+    color: #d7fffa;
+}
+
+#youCanHaveItToo p {
+    margin: 30px auto 30px auto; 
+    color: #bbcfcc;
+}
+
+#youCanHaveItToo a {
+    margin-bottom: 90px;
 }
 
 #getInTouch {
